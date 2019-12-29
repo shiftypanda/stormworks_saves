@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist id_counter="0" name="Unnamed Playlist">
+	<missions/>
+	<locations location_id_counter="3" component_id_counter="10">
+		<locations>
+			<l id="3" tile="data/tiles/arctic_island_playerbase.xml">
+				<components/>
+			</l>
+		</locations>
+	</locations>
+</playlist>
+

@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <playlist id_counter="0" name="Unnamed Playlist">
 	<missions/>
-	<locations location_id_counter="3" component_id_counter="10">
+	<locations location_id_counter="4" component_id_counter="4">
 		<locations>
-			<l id="3" tile="data/tiles/arctic_island_playerbase.xml">
+			<l id="1" tile="data/tiles/mega_island_12_6.xml" is_env_mod="true" env_mod_spawn_num="4">
+				<components>
+					<c component_type="3" id="1" vehicle_parent_id="0" name="id_1" display_name="" is_sea_floor_object="false" zone_type="0" zone_radius="2.5" dynamic_object_type="2" loot_type="0" character_outfit_category="11" character_type="1" character_special_outfit="0" vehicle_file_name="data/missions_working/vehicle_1.xml" vehicle_file_store="4" vehicle_is_static="false" vehicle_is_no_sleep="false" is_fire_lit="true" flare_hue="0" is_flare_lit="true" vehicle_button_name="" ice_type="0" ice_scale="1" animal_type="0">
+						<spawn_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="141.833984" 31="10.421816" 32="67.801712" 33="1"/>
+						<spawn_bounds>
+							<min x="-1.375" y="-0.625" z="-6.875"/>
+							<max x="1.375" y="2.875" z="-0.125"/>
+						</spawn_bounds>
+						<spawn_local_offset x="-0" y="-1.125" z="3.5"/>
+					</c>
+					<c component_type="3" id="2" vehicle_parent_id="0" name="id_2" display_name="" is_sea_floor_object="false" zone_type="0" zone_radius="2.5" dynamic_object_type="2" loot_type="0" character_outfit_category="11" character_type="1" character_special_outfit="0" vehicle_file_name="data/missions_working/vehicle_2.xml" vehicle_file_store="4" vehicle_is_static="false" vehicle_is_no_sleep="false" is_fire_lit="true" flare_hue="0" is_flare_lit="true" vehicle_button_name="" ice_type="0" ice_scale="1" animal_type="0">
+						<spawn_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="142.924835" 31="10.671816" 32="62.369648" 33="1"/>
+						<spawn_bounds>
+							<min x="-1.125" y="-3.375" z="-14.875"/>
+							<max x="6.125" y="0.625" z="3.875"/>
+						</spawn_bounds>
+						<spawn_local_offset x="-2.5" y="1.375" z="5.5"/>
+					</c>
+					<c component_type="3" id="3" vehicle_parent_id="0" name="id_3" display_name="" is_sea_floor_object="false" zone_type="0" zone_radius="2.5" dynamic_object_type="2" loot_type="0" character_outfit_category="11" character_type="1" character_special_outfit="0" vehicle_file_name="data/missions_working/vehicle_3.xml" vehicle_file_store="4" vehicle_is_static="false" vehicle_is_no_sleep="false" is_fire_lit="true" flare_hue="0" is_flare_lit="true" vehicle_button_name="" ice_type="0" ice_scale="1" animal_type="0">
+						<spawn_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="147.646744" 31="10.671816" 32="58.436424" 33="1"/>
+						<spawn_bounds>
+							<min x="-1.125" y="-3.375" z="-14.875"/>
+							<max x="6.125" y="0.625" z="3.875"/>
+						</spawn_bounds>
+						<spawn_local_offset x="-2.5" y="1.375" z="5.5"/>
+					</c>
+				</components>
+			</l>
+			<l id="2" tile="data/tiles/mega_island_15_2.xml" is_env_mod="true" env_mod_spawn_num="1">
+				<components>
+					<c component_type="3" id="4" vehicle_parent_id="0" name="id_4" display_name="" is_sea_floor_object="false" zone_type="0" zone_radius="2.5" dynamic_object_type="2" loot_type="0" character_outfit_category="11" character_type="1" character_special_outfit="0" vehicle_file_name="data/missions_working/vehicle_4.xml" vehicle_file_store="4" vehicle_is_static="true" vehicle_is_no_sleep="true" is_fire_lit="true" flare_hue="0" is_flare_lit="true" vehicle_button_name="" ice_type="0" ice_scale="1" animal_type="0">
+						<spawn_transform 00="-0.013689" 01="0" 02="-0.999906" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.999906" 21="0" 22="-0.013689" 23="0" 30="31.119699" 31="8.513781" 32="288.889862" 33="1"/>
+						<spawn_bounds>
+							<min x="-1.125" y="-3.375" z="-14.875"/>
+							<max x="6.125" y="0.625" z="3.875"/>
+						</spawn_bounds>
+						<spawn_local_offset x="-2.5" y="1.375" z="5.5"/>
+					</c>
+				</components>
+			</l>
+			<l id="3" tile="data/tiles/mega_island_2_6.xml" is_env_mod="true" env_mod_spawn_num="1">
+				<components/>
+			</l>
+			<l id="4" tile="data/tiles/island_43_multiplayer_base.xml" is_env_mod="true" env_mod_spawn_num="0">
 				<components/>
 			</l>
 		</locations>

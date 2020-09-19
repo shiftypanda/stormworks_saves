@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<microprocessor name="Microcontroller" description="No description set." hide_in_inventory="false" width="2" length="1" id_counter="9" id_counter_node="4" transform_index="0" sym0="0" sym1="0" sym2="0" sym3="0" sym4="0" sym5="0" sym6="0" sym7="672" sym8="992" sym9="672" sym10="128" sym11="544" sym12="128" sym13="0" sym14="0" sym15="0">
+	<nodes>
+		<n id="3" component_id="8" built_slot_index="0">
+			<node label="Input" mode="0" type="1" description="The input signal to be processed." flags="0">
+				<position x="1" y="0" z="0"/>
+			</node>
+		</n>
+		<n id="4" component_id="6" built_slot_index="0">
+			<node label="Input" mode="1" type="5" description="The input signal to be processed." flags="0">
+				<position x="0" y="0" z="0"/>
+			</node>
+		</n>
+	</nodes>
+	<group id="0">
+		<pos x="0" y="0"/>
+		<data type="1852799583" name="" desc="">
+			<inputs/>
+			<outputs/>
+		</data>
+		<components>
+			<c type="31">
+				<object id="9" i="0">
+					<pos x="-0.5" y="-0.25"/>
+					<in1 component_id="6" node_index="0">
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</in1>
+					<out1 v="0"/>
+				</object>
+			</c>
+		</components>
+		<components_bridge>
+			<c type="4">
+				<object id="6">
+					<pos x="-2" y="-0.25"/>
+					<in1 component_id="0" node_index="0">
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</in1>
+					<out1>
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</out1>
+				</object>
+			</c>
+			<c type="3">
+				<object id="8">
+					<pos x="0.75" y="-0.5"/>
+					<in1 component_id="9" node_index="0" v="0"/>
+					<out1 v="0"/>
+				</object>
+			</c>
+		</components_bridge>
+		<groups/>
+		<component_states>
+			<c0 id="9" i="0">
+				<pos x="-0.5" y="-0.25"/>
+				<in1 component_id="6" node_index="0">
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</in1>
+				<out1 v="0"/>
+			</c0>
+		</component_states>
+		<component_bridge_states>
+			<c0 id="6">
+				<pos x="-2" y="-0.25"/>
+				<in1 component_id="0" node_index="0">
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</in1>
+				<out1>
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</out1>
+			</c0>
+			<c1 id="8">
+				<pos x="0.75" y="-0.5"/>
+				<in1 component_id="9" node_index="0" v="0"/>
+				<out1 v="0"/>
+			</c1>
+		</component_bridge_states>
+		<group_states/>
+	</group>
+</microprocessor>
+

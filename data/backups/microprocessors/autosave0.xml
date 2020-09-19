@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<microprocessor name="Microcontroller" description="No description set." hide_in_inventory="false" width="2" length="2" id_counter="13" id_counter_node="4" transform_index="0" sym0="0" sym1="0" sym2="0" sym3="0" sym4="0" sym5="7710" sym6="4112" sym7="4112" sym8="4112" sym9="7710" sym10="4626" sym11="7710" sym12="0" sym13="0" sym14="0" sym15="0">
+	<nodes>
+		<n id="1" component_id="11" built_slot_index="0">
+			<node label="Input" mode="1" type="0" description="The input signal to be processed." flags="0">
+				<position x="1" y="0" z="1"/>
+			</node>
+		</n>
+		<n id="2" component_id="10" built_slot_index="0">
+			<node label="Input" mode="1" type="6" description="The input signal to be processed." flags="0">
+				<position x="0" y="0" z="1"/>
+			</node>
+		</n>
+		<n id="3" component_id="6" built_slot_index="0">
+			<node label="Input" mode="1" type="6" description="The input signal to be processed." flags="0">
+				<position x="1" y="0" z="0"/>
+			</node>
+		</n>
+		<n id="4" component_id="12" built_slot_index="0">
+			<node label="Input" mode="0" type="6" description="The input signal to be processed." flags="0">
+				<position x="0" y="0" z="0"/>
+			</node>
+		</n>
+	</nodes>
+	<group id="0">
+		<pos x="0" y="0"/>
+		<data type="1852799583" name="" desc="">
+			<inputs/>
+			<outputs/>
+		</data>
+		<components>
+			<c type="57">
+				<object id="13">
+					<pos x="0.75" y="-1.25"/>
+					<in1 component_id="6" node_index="0">
+						<v/>
+					</in1>
+					<in2 component_id="10" node_index="0">
+						<v/>
+					</in2>
+					<in3 component_id="11" node_index="0" v="false"/>
+					<out1>
+						<v/>
+					</out1>
+				</object>
+			</c>
+		</components>
+		<components_bridge>
+			<c type="6">
+				<object id="6">
+					<pos x="-0.75" y="-0.5"/>
+					<in1 component_id="0" node_index="0">
+						<v/>
+					</in1>
+					<out1>
+						<v/>
+					</out1>
+				</object>
+			</c>
+			<c type="6">
+				<object id="10">
+					<pos x="-0.75" y="-1"/>
+					<in1 component_id="0" node_index="0">
+						<v/>
+					</in1>
+					<out1>
+						<v/>
+					</out1>
+				</object>
+			</c>
+			<c type="0">
+				<object id="11">
+					<pos x="-0.75" y="-1.5"/>
+					<in1 component_id="0" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="7">
+				<object id="12">
+					<pos x="2.25" y="-0.75"/>
+					<in1 component_id="13" node_index="0">
+						<v/>
+					</in1>
+					<out1>
+						<v/>
+					</out1>
+				</object>
+			</c>
+		</components_bridge>
+		<groups/>
+		<component_states>
+			<c0 id="13">
+				<pos x="0.75" y="-1.25"/>
+				<in1 component_id="6" node_index="0">
+					<v/>
+				</in1>
+				<in2 component_id="10" node_index="0">
+					<v/>
+				</in2>
+				<in3 component_id="11" node_index="0" v="false"/>
+				<out1>
+					<v/>
+				</out1>
+			</c0>
+		</component_states>
+		<component_bridge_states>
+			<c0 id="6">
+				<pos x="-0.75" y="-0.5"/>
+				<in1 component_id="0" node_index="0">
+					<v/>
+				</in1>
+				<out1>
+					<v/>
+				</out1>
+			</c0>
+			<c1 id="10">
+				<pos x="-0.75" y="-1"/>
+				<in1 component_id="0" node_index="0">
+					<v/>
+				</in1>
+				<out1>
+					<v/>
+				</out1>
+			</c1>
+			<c2 id="11">
+				<pos x="-0.75" y="-1.5"/>
+				<in1 component_id="0" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c2>
+			<c3 id="12">
+				<pos x="2.25" y="-0.75"/>
+				<in1 component_id="13" node_index="0">
+					<v/>
+				</in1>
+				<out1>
+					<v/>
+				</out1>
+			</c3>
+		</component_bridge_states>
+		<group_states/>
+	</group>
+</microprocessor>
+

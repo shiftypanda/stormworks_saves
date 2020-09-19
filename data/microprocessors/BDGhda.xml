@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<microprocessor name="Blinker. A AND B. A OR B." description="No description set." hide_in_inventory="false" width="3" length="3" id_counter="15" id_counter_node="9" transform_index="0" sym0="0" sym1="0" sym2="0" sym3="0" sym4="0" sym5="0" sym6="0" sym7="0" sym8="0" sym9="0" sym10="0" sym11="0" sym12="0" sym13="65532" sym14="3" sym15="65532">
+	<nodes>
+		<n id="1" component_id="1" built_slot_index="0">
+			<node label="B OR" mode="1" type="0" description="The input signal to be processed." flags="0">
+				<position x="1" y="0" z="2"/>
+			</node>
+		</n>
+		<n id="2" component_id="2" built_slot_index="0">
+			<node label="A OR" mode="1" type="0" description="The input signal to be processed." flags="0">
+				<position x="0" y="0" z="2"/>
+			</node>
+		</n>
+		<n id="3" component_id="14" built_slot_index="0">
+			<node label="A OR B" mode="0" type="0" description="The input signal to be processed." flags="0">
+				<position x="1" y="0" z="1"/>
+			</node>
+		</n>
+		<n id="4" component_id="15" built_slot_index="0">
+			<node label="A AND B" mode="0" type="0" description="The input signal to be processed." flags="0">
+				<position x="0" y="0" z="1"/>
+			</node>
+		</n>
+		<n id="5" component_id="5" built_slot_index="0">
+			<node label="A AND" mode="1" type="0" description="The input signal to be processed." flags="0">
+				<position x="1" y="0" z="0"/>
+			</node>
+		</n>
+		<n id="6" component_id="6" built_slot_index="0">
+			<node label="B AND" mode="1" type="0" description="The input signal to be processed." flags="0">
+				<position x="0" y="0" z="0"/>
+			</node>
+		</n>
+		<n id="7" component_id="8" built_slot_index="0">
+			<node label="Input" mode="1" type="0" description="The input signal to be processed." flags="0">
+				<position x="2" y="0" z="2"/>
+			</node>
+		</n>
+		<n id="8" component_id="9" built_slot_index="0">
+			<node label="BLI" mode="1" type="0" description="The input signal to be processed." flags="0">
+				<position x="2" y="0" z="1"/>
+			</node>
+		</n>
+		<n id="9" component_id="11" built_slot_index="0">
+			<node label="BLI" mode="0" type="0" description="The input signal to be processed." flags="0">
+				<position x="2" y="0" z="0"/>
+			</node>
+		</n>
+	</nodes>
+	<group id="0">
+		<pos x="0" y="0"/>
+		<data type="1852799583" name="" desc="">
+			<inputs/>
+			<outputs/>
+		</data>
+		<components>
+			<c type="27">
+				<object id="7" on="0.5" off="0.4" c="0">
+					<pos x="3.25" y="-1.25"/>
+					<in1 component_id="9" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="2">
+				<object id="12">
+					<pos x="0" y="-0.5"/>
+					<in1 component_id="2" node_index="0" v="false"/>
+					<in2 component_id="1" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="1">
+				<object id="13">
+					<pos x="-0.25" y="1.5"/>
+					<in1 component_id="5" node_index="0" v="false"/>
+					<in2 component_id="6" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+		</components>
+		<components_bridge>
+			<c type="0">
+				<object id="1">
+					<pos x="-1.75" y="-0.5"/>
+					<in1 component_id="0" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="0">
+				<object id="2">
+					<pos x="-1.75" y="0"/>
+					<in1 component_id="0" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="0">
+				<object id="5">
+					<pos x="-1.75" y="2"/>
+					<in1 component_id="0" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="0">
+				<object id="6">
+					<pos x="-1.75" y="1.5"/>
+					<in1 component_id="0" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="0">
+				<object id="8">
+					<pos x="-4.5" y="0.25"/>
+					<in1 component_id="0" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="0">
+				<object id="9">
+					<pos x="2" y="-1.25"/>
+					<in1 component_id="0" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="1">
+				<object id="11">
+					<pos x="4.5" y="-1.25"/>
+					<in1 component_id="7" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="1">
+				<object id="14">
+					<pos x="1.5" y="-0.25"/>
+					<in1 component_id="12" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+			<c type="1">
+				<object id="15">
+					<pos x="1.25" y="1.75"/>
+					<in1 component_id="13" node_index="0" v="false"/>
+					<out1 v="false"/>
+				</object>
+			</c>
+		</components_bridge>
+		<groups/>
+		<component_states>
+			<c0 id="7" on="0.5" off="0.4" c="0">
+				<pos x="3.25" y="-1.25"/>
+				<in1 component_id="9" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c0>
+			<c1 id="12">
+				<pos x="0" y="-0.5"/>
+				<in1 component_id="2" node_index="0" v="false"/>
+				<in2 component_id="1" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c1>
+			<c2 id="13">
+				<pos x="-0.25" y="1.5"/>
+				<in1 component_id="5" node_index="0" v="false"/>
+				<in2 component_id="6" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c2>
+		</component_states>
+		<component_bridge_states>
+			<c0 id="1">
+				<pos x="-1.75" y="-0.5"/>
+				<in1 component_id="0" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c0>
+			<c1 id="2">
+				<pos x="-1.75" y="0"/>
+				<in1 component_id="0" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c1>
+			<c2 id="5">
+				<pos x="-1.75" y="2"/>
+				<in1 component_id="0" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c2>
+			<c3 id="6">
+				<pos x="-1.75" y="1.5"/>
+				<in1 component_id="0" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c3>
+			<c4 id="8">
+				<pos x="-4.5" y="0.25"/>
+				<in1 component_id="0" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c4>
+			<c5 id="9">
+				<pos x="2" y="-1.25"/>
+				<in1 component_id="0" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c5>
+			<c6 id="11">
+				<pos x="4.5" y="-1.25"/>
+				<in1 component_id="7" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c6>
+			<c7 id="14">
+				<pos x="1.5" y="-0.25"/>
+				<in1 component_id="12" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c7>
+			<c8 id="15">
+				<pos x="1.25" y="1.75"/>
+				<in1 component_id="13" node_index="0" v="false"/>
+				<out1 v="false"/>
+			</c8>
+		</component_bridge_states>
+		<group_states/>
+	</group>
+</microprocessor>
+

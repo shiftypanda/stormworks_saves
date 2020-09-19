@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<microprocessor name="luatest" description="No description set." hide_in_inventory="false" width="2" length="2" id_counter="48" id_counter_node="7" transform_index="0" sym0="8448" sym1="8448" sym2="4608" sym3="4608" sym4="3072" sym5="2816" sym6="2432" sym7="7423" sym8="10900" sym9="8881" sym10="13987" sym11="7423" sym12="0" sym13="0" sym14="0" sym15="0">
+	<nodes>
+		<n id="2" component_id="8" built_slot_index="0">
+			<node label="Input" mode="0" type="6" description="The input signal to be processed." flags="0">
+				<position x="1" y="0" z="1"/>
+			</node>
+		</n>
+		<n id="3" component_id="20" built_slot_index="0">
+			<node label="X" mode="1" type="1" description="The input signal to be processed." flags="0">
+				<position x="0" y="0" z="0"/>
+			</node>
+		</n>
+		<n id="5" component_id="22" built_slot_index="0">
+			<node label="Y" mode="1" type="1" description="The input signal to be processed." flags="0">
+				<position x="1" y="0" z="0"/>
+			</node>
+		</n>
+		<n id="6" component_id="27" built_slot_index="0">
+			<node label="Input" mode="1" type="5" description="The input signal to be processed." flags="0">
+				<position x="0" y="0" z="1"/>
+			</node>
+		</n>
+	</nodes>
+	<group id="0">
+		<pos x="0" y="0"/>
+		<data type="1936291175" name="" desc="">
+			<inputs/>
+			<outputs/>
+		</data>
+		<components>
+			<c type="56">
+				<object id="11" script='--setting values before everything runs so there is no "nil" error
+zoom = 1
+yb=0
+xb=0
+h=0
+function onTick()
+	--button position and sizes
+	ButtonPlus = {x=30,y=h-29,r=9}
+	ButtonMinus = {x=30,y=h-20,r=9}
+	ButtonUp = {x=12,y=h-29,r=9}
+	ButtonDown = {x=12,y=h-11,r=9}
+	ButtonLeft = {x=3,y=h-20,r=9}
+	ButtonRight = {x=21,y=h-20,r=9}
+	ButtonReset = {x=12,y=h-20,r=9}
+	
+	--inputs
+	TouchX = input.getNumber(3)--touchscreen X input
+	TouchY = input.getNumber(4)--touchscreen Y input
+	Touchinput = input.getBool(1)--touchscreen touch input
+	x = input.getNumber(7)--vehicle x position
+	y = input.getNumber(8)--vehicle y position
+	
+	
+	if Touchinput == true then -- touch check
+		if TouchX &gt;= ButtonPlus.x and TouchX &lt;= ButtonPlus.x+ButtonPlus.r then
+			if TouchY &gt;= ButtonPlus.y and TouchY &lt;= ButtonPlus.y+ButtonPlus.r then
+				zoom = zoom-0.05
+			elseif TouchY &gt;= ButtonMinus.y and TouchY &lt;= ButtonMinus.y+ButtonMinus.r then
+				zoom = zoom+0.05
+			end
+		end
+		
+		if TouchX &gt;= ButtonUp.x and TouchX &lt;= ButtonUp.x+ButtonUp.r then --x position check
+			if TouchY &gt;= ButtonUp.y and TouchY &lt;= ButtonUp.y+ButtonUp.r then --y position check
+				yb = yb+(10*zoom) --changes value when all checks are true 
+			end
+		end
+		
+		if TouchX &gt;= ButtonDown.x and TouchX &lt;= ButtonDown.x+ButtonDown.r then
+			if TouchY &gt;= ButtonDown.y and TouchY &lt;= ButtonDown.y+ButtonDown.r then
+				yb = yb-(10*zoom)
+			end
+		end
+		
+		if TouchX &gt;= ButtonLeft.x and TouchX &lt;= ButtonLeft.x+ButtonLeft.r then
+			if TouchY &gt;= ButtonLeft.y and TouchY &lt;= ButtonLeft.y+ButtonLeft.r then
+				xb = xb-(10*zoom)
+			end
+		end
+		
+		if TouchX &gt;= ButtonRight.x and TouchX &lt;= ButtonRight.x+ButtonRight.r then
+			if TouchY &gt;= ButtonRight.y and TouchY &lt;= ButtonRight.y+ButtonRight.r then
+				xb = xb+(10*zoom)
+			end
+		end
+		
+		if TouchX &gt;= ButtonReset.x and TouchX &lt;= ButtonReset.x+ButtonReset.r then
+			if TouchY &gt;= ButtonReset.y and TouchY &lt;= ButtonReset.y+ButtonReset.r then
+				xb = 0
+				yb = 0
+			end
+		end
+		
+	end
+	--clamp of zoom value
+	if zoom &lt; 0.1 then
+	zoom = 0.1
+	end
+	if zoom &gt; 50 then
+	zoom = 50
+	end
+	
+end
+function onDraw()
+	--getting size of the screen
+	w = screen.getWidth()
+    h = screen.getHeight()
+	
+	screen.drawMap(x+xb, y+yb, zoom) --drawing map
+	
+	pixelX, pixelY = map.mapToScreen(x+xb, y+yb, zoom, w, h, x, y) --checking vehicle position to point on map
+	screen.setColor(255,0,0)--selecting red color
+	screen.drawRectF(pixelX, pixelY, 1,1)--drawing point on map where vehicle is
+	
+	screen.setColor(50,50,50,150)--selecting background color for buttons
+	--drawing background for buttons
+	screen.drawRectF(ButtonPlus.x,ButtonPlus.y,ButtonPlus.r,ButtonPlus.r)
+	screen.drawRectF(ButtonMinus.x,ButtonMinus.y,ButtonMinus.r,ButtonMinus.r)
+	screen.drawRectF(ButtonUp.x,ButtonUp.y,ButtonUp.r,ButtonUp.r)
+	screen.drawRectF(ButtonDown.x,ButtonDown.y,ButtonMinus.r,ButtonDown.r)
+	screen.drawRectF(ButtonLeft.x,ButtonLeft.y,ButtonLeft.r,ButtonLeft.r)
+	screen.drawRectF(ButtonRight.x,ButtonRight.y,ButtonRight.r,ButtonRight.r)
+	screen.drawRectF(ButtonReset.x,ButtonReset.y,ButtonReset.r,ButtonReset.r)
+	
+	screen.setColor(0,255,0,200)--selecting colors for buttons
+	--drawing text on buttons 
+	screen.drawText((ButtonPlus.x)+3,(ButtonPlus.y)+2,"+")
+	screen.drawText((ButtonMinus.x)+3,(ButtonMinus.y)+2,"-")
+	screen.drawText((ButtonUp.x)+3,(ButtonUp.y)+2,"^")
+	screen.drawText((ButtonDown.x)+3,(ButtonDown.y)+2,".")
+	screen.drawText((ButtonLeft.x)+3,(ButtonLeft.y)+2,"&lt;")
+	screen.drawText((ButtonRight.x)+3,(ButtonRight.y)+2,"&gt;")
+	screen.drawText((ButtonReset.x)+3,(ButtonReset.y)+2,"R")
+end'>
+					<pos x="-1" y="1.25"/>
+					<in1 component_id="18" node_index="0">
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</in1>
+					<in2 component_id="0" node_index="0">
+						<v/>
+					</in2>
+					<out1>
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</out1>
+					<out2>
+						<v/>
+					</out2>
+				</object>
+			</c>
+			<c type="40">
+				<object id="18" count="2" offset="6">
+					<pos x="-2.25" y="0.75"/>
+					<inc component_id="27" node_index="0">
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</inc>
+					<in1 component_id="20" node_index="0" v="0"/>
+					<in2 component_id="22" node_index="0" v="0"/>
+					<out1>
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</out1>
+				</object>
+			</c>
+		</components>
+		<components_bridge>
+			<c type="7">
+				<object id="8">
+					<pos x="0.25" y="1.25"/>
+					<in1 component_id="11" node_index="1">
+						<v/>
+					</in1>
+					<out1>
+						<v/>
+					</out1>
+				</object>
+			</c>
+			<c type="2">
+				<object id="20">
+					<pos x="-3.5" y="0.75"/>
+					<in1 component_id="0" node_index="0" v="0"/>
+					<out1 v="0"/>
+				</object>
+			</c>
+			<c type="2">
+				<object id="22">
+					<pos x="-3.5" y="0.5"/>
+					<in1 component_id="0" node_index="0" v="0"/>
+					<out1 v="0"/>
+				</object>
+			</c>
+			<c type="4">
+				<object id="27">
+					<pos x="-3.5" y="1.75"/>
+					<in1 component_id="0" node_index="0">
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</in1>
+					<out1>
+						<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+					</out1>
+				</object>
+			</c>
+		</components_bridge>
+		<groups/>
+		<component_states>
+			<c0 id="11" script='--setting values before everything runs so there is no "nil" error
+zoom = 1
+yb=0
+xb=0
+h=0
+function onTick()
+	--button position and sizes
+	ButtonPlus = {x=30,y=h-29,r=9}
+	ButtonMinus = {x=30,y=h-20,r=9}
+	ButtonUp = {x=12,y=h-29,r=9}
+	ButtonDown = {x=12,y=h-11,r=9}
+	ButtonLeft = {x=3,y=h-20,r=9}
+	ButtonRight = {x=21,y=h-20,r=9}
+	ButtonReset = {x=12,y=h-20,r=9}
+	
+	--inputs
+	TouchX = input.getNumber(3)--touchscreen X input
+	TouchY = input.getNumber(4)--touchscreen Y input
+	Touchinput = input.getBool(1)--touchscreen touch input
+	x = input.getNumber(7)--vehicle x position
+	y = input.getNumber(8)--vehicle y position
+	
+	
+	if Touchinput == true then -- touch check
+		if TouchX &gt;= ButtonPlus.x and TouchX &lt;= ButtonPlus.x+ButtonPlus.r then
+			if TouchY &gt;= ButtonPlus.y and TouchY &lt;= ButtonPlus.y+ButtonPlus.r then
+				zoom = zoom-0.05
+			elseif TouchY &gt;= ButtonMinus.y and TouchY &lt;= ButtonMinus.y+ButtonMinus.r then
+				zoom = zoom+0.05
+			end
+		end
+		
+		if TouchX &gt;= ButtonUp.x and TouchX &lt;= ButtonUp.x+ButtonUp.r then --x position check
+			if TouchY &gt;= ButtonUp.y and TouchY &lt;= ButtonUp.y+ButtonUp.r then --y position check
+				yb = yb+(10*zoom) --changes value when all checks are true 
+			end
+		end
+		
+		if TouchX &gt;= ButtonDown.x and TouchX &lt;= ButtonDown.x+ButtonDown.r then
+			if TouchY &gt;= ButtonDown.y and TouchY &lt;= ButtonDown.y+ButtonDown.r then
+				yb = yb-(10*zoom)
+			end
+		end
+		
+		if TouchX &gt;= ButtonLeft.x and TouchX &lt;= ButtonLeft.x+ButtonLeft.r then
+			if TouchY &gt;= ButtonLeft.y and TouchY &lt;= ButtonLeft.y+ButtonLeft.r then
+				xb = xb-(10*zoom)
+			end
+		end
+		
+		if TouchX &gt;= ButtonRight.x and TouchX &lt;= ButtonRight.x+ButtonRight.r then
+			if TouchY &gt;= ButtonRight.y and TouchY &lt;= ButtonRight.y+ButtonRight.r then
+				xb = xb+(10*zoom)
+			end
+		end
+		
+		if TouchX &gt;= ButtonReset.x and TouchX &lt;= ButtonReset.x+ButtonReset.r then
+			if TouchY &gt;= ButtonReset.y and TouchY &lt;= ButtonReset.y+ButtonReset.r then
+				xb = 0
+				yb = 0
+			end
+		end
+		
+	end
+	--clamp of zoom value
+	if zoom &lt; 0.1 then
+	zoom = 0.1
+	end
+	if zoom &gt; 50 then
+	zoom = 50
+	end
+	
+end
+function onDraw()
+	--getting size of the screen
+	w = screen.getWidth()
+    h = screen.getHeight()
+	
+	screen.drawMap(x+xb, y+yb, zoom) --drawing map
+	
+	pixelX, pixelY = map.mapToScreen(x+xb, y+yb, zoom, w, h, x, y) --checking vehicle position to point on map
+	screen.setColor(255,0,0)--selecting red color
+	screen.drawRectF(pixelX, pixelY, 1,1)--drawing point on map where vehicle is
+	
+	screen.setColor(50,50,50,150)--selecting background color for buttons
+	--drawing background for buttons
+	screen.drawRectF(ButtonPlus.x,ButtonPlus.y,ButtonPlus.r,ButtonPlus.r)
+	screen.drawRectF(ButtonMinus.x,ButtonMinus.y,ButtonMinus.r,ButtonMinus.r)
+	screen.drawRectF(ButtonUp.x,ButtonUp.y,ButtonUp.r,ButtonUp.r)
+	screen.drawRectF(ButtonDown.x,ButtonDown.y,ButtonMinus.r,ButtonDown.r)
+	screen.drawRectF(ButtonLeft.x,ButtonLeft.y,ButtonLeft.r,ButtonLeft.r)
+	screen.drawRectF(ButtonRight.x,ButtonRight.y,ButtonRight.r,ButtonRight.r)
+	screen.drawRectF(ButtonReset.x,ButtonReset.y,ButtonReset.r,ButtonReset.r)
+	
+	screen.setColor(0,255,0,200)--selecting colors for buttons
+	--drawing text on buttons 
+	screen.drawText((ButtonPlus.x)+3,(ButtonPlus.y)+2,"+")
+	screen.drawText((ButtonMinus.x)+3,(ButtonMinus.y)+2,"-")
+	screen.drawText((ButtonUp.x)+3,(ButtonUp.y)+2,"^")
+	screen.drawText((ButtonDown.x)+3,(ButtonDown.y)+2,".")
+	screen.drawText((ButtonLeft.x)+3,(ButtonLeft.y)+2,"&lt;")
+	screen.drawText((ButtonRight.x)+3,(ButtonRight.y)+2,"&gt;")
+	screen.drawText((ButtonReset.x)+3,(ButtonReset.y)+2,"R")
+end'>
+				<pos x="-1" y="1.25"/>
+				<in1 component_id="18" node_index="0">
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</in1>
+				<in2 component_id="0" node_index="0">
+					<v/>
+				</in2>
+				<out1>
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</out1>
+				<out2>
+					<v/>
+				</out2>
+			</c0>
+			<c1 id="18" count="2" offset="6">
+				<pos x="-2.25" y="0.75"/>
+				<inc component_id="27" node_index="0">
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</inc>
+				<in1 component_id="20" node_index="0" v="0"/>
+				<in2 component_id="22" node_index="0" v="0"/>
+				<out1>
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</out1>
+			</c1>
+		</component_states>
+		<component_bridge_states>
+			<c0 id="8">
+				<pos x="0.25" y="1.25"/>
+				<in1 component_id="11" node_index="1">
+					<v/>
+				</in1>
+				<out1>
+					<v/>
+				</out1>
+			</c0>
+			<c1 id="20">
+				<pos x="-3.5" y="0.75"/>
+				<in1 component_id="0" node_index="0" v="0"/>
+				<out1 v="0"/>
+			</c1>
+			<c2 id="22">
+				<pos x="-3.5" y="0.5"/>
+				<in1 component_id="0" node_index="0" v="0"/>
+				<out1 v="0"/>
+			</c2>
+			<c3 id="27">
+				<pos x="-3.5" y="1.75"/>
+				<in1 component_id="0" node_index="0">
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</in1>
+				<out1>
+					<v bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/>
+				</out1>
+			</c3>
+		</component_bridge_states>
+		<group_states/>
+	</group>
+</microprocessor>
+

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<save_data flags="0" mouse_sensitivity="0.1" mouse_aspect="1" muted_sfx="false" muted_music="false" volume_master="1" volume_sounds="1" volume_environment="0.3" volume_music="1" volume_voice="1" data_version="5" uuid="80625033749870201578946" resume_save_name="my save" network_player_name="nameless" hud_pinned_clock="true" hud_pinned_objectives="true" hud_pinned_player_names="true" tutorial_completed="true" autosave_disabled="false" issue_user="76561198161149183_98f0be8f" issue_key="98f0be8fe6003bc3" fov_first_person="70" fov_first_person_vehicle="70" fov_third_person="70" mouse_smoothing="true" third_person_camera_mode="0" editor_autosave_slot_vehicle="0" editor_autosave_slot_microprocessor="0" language_file_name="" language_file_store="1">
-	<editor_preferences show_centre_of_mass="false" show_rotation_ui="true" show_editor_only_mesh="true" render_grid_lines="true" camera_mode="1" paint_mode="2" show_measurements="true">
+<save_data flags="0" mouse_sensitivity="0.1" mouse_aspect="1" muted_sfx="false" muted_music="false" volume_master="1" volume_sounds="1" volume_environment="0.3" volume_music="1" volume_voice="1" data_version="5" uuid="80625033749870201578946" resume_save_name="my save" hud_pinned_clock="true" hud_pinned_objectives="true" hud_pinned_player_names="true" hud_pinned_hide_chat="false" hud_pinned_keybind_hints="true" hud_pinned_data_labels="1" tutorial_completed="true" autosave_disabled="false" issue_user="76561198161149183_98f0be8f" issue_key="98f0be8fe6003bc3" fov_first_person="70" fov_first_person_vehicle="70" fov_third_person="70" mouse_smoothing="true" third_person_camera_mode="0" editor_autosave_slot_vehicle="0" editor_autosave_slot_microprocessor="9" language_file_name="" language_file_store="1">
+	<editor_preferences show_centre_of_mass="true" show_rotation_ui="true" show_editor_only_mesh="true" render_grid_lines="false" camera_mode="1" paint_mode="0" show_measurements="true" render_editor_errors="false">
 		<hotbar_slots size="10">
 			<slot value="01_block"/>
 			<slot value="02_wedge"/>
 			<slot value="03_pyramid"/>
 			<slot value="04_invpyramid"/>
 			<slot value="01_block_weight"/>
-			<slot value="trans_block_t"/>
-			<slot value="trans_block_straight"/>
+			<slot value="trans_t"/>
+			<slot value="sign"/>
 			<slot value="trans_block_angle"/>
 			<slot value="trans_straight"/>
 			<slot value="trans_angle"/>
@@ -166,6 +166,7 @@
 		<action_emote_wheel key="38" mouse="9" pad="49" axis="4294967295" pad_index="4294967295" invert="false"/>
 		<action_quick_chat key="61" mouse="9" pad="49" axis="4294967295" pad_index="4294967295" invert="false"/>
 		<action_voice_chat key="1" mouse="9" pad="49" axis="4294967295" pad_index="4294967295" invert="false"/>
+		<action_labels_detailed key="71" mouse="9" pad="49" axis="4294967295" pad_index="4294967295" invert="false"/>
 		<action_map key="34" mouse="9" pad="49" axis="4294967295" pad_index="4294967295" invert="false"/>
 		<action_missions key="35" mouse="9" pad="49" axis="4294967295" pad_index="4294967295" invert="false"/>
 		<action_creative_menu key="106" mouse="9" pad="49" axis="4294967295" pad_index="4294967295" invert="false"/>
@@ -246,10 +247,5 @@
 		<color_mesh_mask r="69" g="69" b="69" a="255"/>
 		<color_mesh_clothing r="69" g="69" b="69" a="255"/>
 	</default_appearance>
-	<ui_disabled_playlists size="3">
-		<p value="/Users/tim/Library/Application Support/Steam/steamapps/workshop/content/573090/1967130588/playlist"/>
-		<p value="/Users/tim/Library/Application Support/Steam/steamapps/workshop/content/573090/1927797229/playlist"/>
-		<p value="/Users/tim/Library/Application Support/Steam/steamapps/workshop/content/573090/1832596535/playlist"/>
-	</ui_disabled_playlists>
 </save_data>
 

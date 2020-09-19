@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?><vehicle data_version="2" is_advanced="true" is_static="false" bodies_id="117"><editor_placement_offset x="0" y="0" z="0"/><authors/><bodies><body unique_id="110"><initial_local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><components><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="0" z="2"/></o></c><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="0" z="3"/></o></c><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-2" y="0" z="3"/></o></c><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-3" y="0" z="3"/></o></c><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-4" y="0" z="2"/></o></c><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-4" y="0" z="3"/></o></c><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="0" z="2"/></o></c><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="0" z="3"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="1" z="3"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-4" y="1" z="3"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-3" y="1" z="3"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-2" y="1" z="3"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="1" z="3"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="1" z="1"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="4" z="1"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="1" z="1"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="2" z="1"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="3" z="1"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="4" z="1"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="2" z="3"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="2" z="3"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-1" y="6" z="2"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-2" y="6" z="2"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-3" y="6" z="2"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-4" y="6" z="2"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-5" y="6" z="2"/></o></c><c d="05_wedge_2" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-1" y="0" z="4"/></o></c><c d="05_wedge_2" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-2" y="0" z="4"/></o></c><c d="05_wedge_2" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-3" y="0" z="4"/></o></c><c d="05_wedge_2" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-4" y="0" z="4"/></o></c><c d="05_wedge_2" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-5" y="0" z="4"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="3" z="2"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="4" z="2"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="5" z="2"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="3" z="2"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="4" z="2"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="5" z="2"/></o></c><c d="monitor_5" t="0"><o r="-1,0,0,0,0,1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="31" custom_name=""><vp x="-3" y="4" z="3"/><logic_slots><slot><value/></slot><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot value="false"/></logic_slots></o></c><c d="battery_small" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="2" custom_name="" default_state="false"><vp x="-3" y="5" z="2"/><logic_slots><slot value="0"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="battery_small" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="2" custom_name="" default_state="false"><vp x="-3" y="4" z="2"/><logic_slots><slot value="0"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="battery_small" t="0"><o r="0,-1,0,0,0,1,-1,0,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="2" custom_name="" default_state="false"><vp x="-2" y="4" z="2"/><logic_slots><slot value="0"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="button_toggle" t="0"><o r="0,-1,0,0,0,1,-1,0,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" hold_duration="1" default_state="false" sensitivity="1" val_1_name="" val_2_name=""><vp x="-3" y="2" z="3"/><logic_slots><slot value="false"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/></logic_slots><min_lever_value text="0" value="0"/><max_lever_value text="1" value="1"/><starting_lever_value text="0" value="0"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,0,-1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="3" z="1"/></o></c><c d="dial" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" decimal_point_pos="3" audio="audio/fx3/stormworks_warningalarm.ogg" volume="1" pitch="1" is_infrared="false"><vp x="-4" y="4" z="1"/><logic_slots><slot value="0"/><slot value="0"/><slot value="false"/></logic_slots><min_value text="-1.0" value="-1"/><max_value text="1.0" value="1"/></o></c><c d="dial" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" decimal_point_pos="3" audio="audio/fx3/stormworks_warningalarm.ogg" volume="1" pitch="1" is_infrared="false"><vp x="-3" y="4" z="1"/><logic_slots><slot value="0"/><slot value="0"/><slot value="false"/></logic_slots><min_value text="-1.0" value="-1"/><max_value text="1.0" value="1"/></o></c><c d="dial" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" decimal_point_pos="3" audio="audio/fx3/stormworks_warningalarm.ogg" volume="1" pitch="1" is_infrared="false"><vp x="-2" y="4" z="1"/><logic_slots><slot value="0"/><slot value="0"/><slot value="false"/></logic_slots><min_value text="-1.0" value="-1"/><max_value text="1.0" value="1"/></o></c><c d="connector_electric" t="0"><o r="1,0,0,0,0,-1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name=""><vp x="-1" y="0" z="1"/><logic_slots><slot value="false"/><slot value="false"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value/></slot><slot><value/></slot></logic_slots></o></c><c d="electric_curcuit_breaker" t="0"><o r="1,0,0,0,0,-1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" default_state="true"><vp x="-2" y="3" z="1"/><logic_slots><slot value="0"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="electric_curcuit_breaker" t="0"><o r="1,0,0,0,0,-1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" default_state="true"><vp x="-3" y="3" z="1"/><logic_slots><slot value="0"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="electric_curcuit_breaker" t="0"><o r="1,0,0,0,0,-1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" default_state="true"><vp x="-4" y="3" z="1"/><logic_slots><slot value="0"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-4" y="2" z="3"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-2" y="2" z="3"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-1" y="5" z="1"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-2" y="5" z="1"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-3" y="5" z="1"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-4" y="5" z="1"/></o></c><c d="05_wedge_2" t="0"><o r="-1,0,0,0,0,-1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="9"><vp x="-5" y="5" z="1"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-2" y="3" z="2"/></o></c><c d="microprocessor" t="0"><o r="0,0,1,0,1,0,-1,0,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="10" custom_name=""><microprocessor_definition name="Switch Number" description="No description set." hide_in_inventory="false" width="1" length="2" id_counter="9" id_counter_node="2" transform_index="0" sym0="0" sym1="32766" sym2="1056" sym3="960" sym4="0" sym5="128" sym6="80" sym7="48" sym8="112" sym9="12292" sym10="18436" sym11="18436" sym12="18436" sym13="18436" sym14="12294" sym15="0"><nodes><n id="1" component_id="1" built_slot_index="0"><node label="Input" mode="1" type="0" description="The input signal to be processed." flags="0"><position x="0" y="0" z="0"/></node></n><n id="2" component_id="4" built_slot_index="0"><node label="Output" mode="0" type="1" description="The input signal to be processed." flags="0"><position x="0" y="0" z="1"/></node></n></nodes><group id="0"><pos x="0" y="0"/><data type="151587081" name="" desc=""><inputs/><outputs/></data><components><c type="22"><object id="5"><pos x="0" y="-0.25"/><in1 component_id="8" node_index="0"/><in2 component_id="9" node_index="0"/><in3 component_id="1" node_index="0"/><out1/></object></c><c type="34"><object id="8" n="ON"><pos x="-1.75" y="0.25"/><out1/><v text="1" value="1"/></object></c><c type="34"><object id="9" n="OFF"><pos x="-1.75" y="-0.75"/><out1/><v text="0" value="0"/></object></c></components><components_bridge><c type="0"><object id="1"><pos x="-3" y="0"/><in1 component_id="0" node_index="0"/><out1/></object></c><c type="3"><object id="4"><pos x="1.75" y="0"/><in1 component_id="5" node_index="0"/><out1/></object></c></components_bridge><groups/></group></microprocessor_definition><vp x="-3" y="3" z="2"/><logic_slots><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="01_block" t="0"><o r="1,0,0,0,1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="2" z="1"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="1" z="2"/></o></c><c d="01_block" t="0"><o r="1,0,0,0,0,1,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-1" y="2" z="2"/></o></c><c d="02_wedge" t="0"><o r="0,0,-1,0,-1,0,-1,0,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5"><vp x="-4" y="2" z="2"/></o></c><c d="01_block" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="2" z="2"/></o></c><c d="button_toggle" t="2"><o r="-1,0,0,0,0,1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" hold_duration="1" default_state="false" sensitivity="1" val_1_name="" val_2_name=""><vp x="-4" y="1" z="1"/><logic_slots><slot value="false"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/></logic_slots><min_lever_value text="0" value="0"/><max_lever_value text="1" value="1"/><starting_lever_value text="0" value="0"/></o></c><c d="electric_curcuit_breaker" t="2"><o r="-1,0,0,0,0,1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" default_state="false"><vp x="-4" y="2" z="1"/><logic_slots><slot value="0"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="01_block" t="0"><o r="-1,0,0,0,-1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-5" y="0" z="1"/></o></c><c d="multibody_compact_pivot_robotic_a" t="0"><o r="0,0,-1,1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name="" max_force_scalar="1" gear_ratio="2" input_velocity="1"><vp x="-4" y="0" z="1"/><logic_slots><slot value="0"/><slot value="false"/><slot value="false"/><slot value="0"/></logic_slots></o></c><c d="connector_electric" t="0"><o r="0,-1,0,1,0,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="5" custom_name=""><vp x="-5" y="1" z="2"/><logic_slots><slot value="false"/><slot value="false"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value/></slot><slot><value/></slot></logic_slots></o></c><c d="02_wedge" t="0"><o r="1,0,0,0,0,-1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5"><vp x="-3" y="0" z="2"/></o></c><c d="02_wedge" t="0"><o r="1,0,0,0,0,-1,0,1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="5"><vp x="-2" y="0" z="2"/></o></c></components></body><body unique_id="113"><initial_local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><components><c d="connector_electric" t="0"><o r="0,0,-1,-1,0,0,0,1,0" bc="C2C3C7FF" ac="FFFFFFFF" sc="5,C2C3C7FF,C2C3C7FF,FFFFFFFF,C2C3C7FF,FFFFFFFF" custom_name=""><vp x="-3" y="0" z="-3"/><logic_slots><slot value="false"/><slot value="false"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value/></slot><slot><value/></slot></logic_slots></o></c><c d="sign" t="0"><o r="0,0,1,0,-1,0,1,0,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6,FFFFFFFF,C2C3C7FF,FFFFFFFF,C2C3C7FF,C2C3C7FF,FFFFFFFF" custom_name="game of life"><vp x="-3" y="0" z="-4"/><logic_slots><slot value="false"/></logic_slots><cc0 r="194" g="195" b="199" a="255"/><ca0 r="0" g="0" b="0" a="0"/><cc1 r="194" g="195" b="199" a="255"/><ca1 r="0" g="0" b="0" a="0"/><cc2 r="194" g="195" b="199" a="255"/><ca2 r="0" g="0" b="0" a="0"/><cc3 r="194" g="195" b="199" a="255"/><ca3 r="0" g="0" b="0" a="0"/><cc4 r="194" g="195" b="199" a="255"/><ca4 r="0" g="0" b="0" a="0"/><cc5 r="194" g="195" b="199" a="255"/><ca5 r="0" g="0" b="0" a="0"/><cc6 r="194" g="195" b="199" a="255"/><ca6 r="0" g="0" b="0" a="0"/><cc7 r="255" g="119" b="168" a="255"/><ca7 r="255" g="119" b="168" a="255"/><cc8 r="194" g="195" b="199" a="255"/><ca8 r="0" g="0" b="0" a="0"/><cc9 r="194" g="195" b="199" a="255"/><ca9 r="0" g="0" b="0" a="0"/><cc10 r="194" g="195" b="199" a="255"/><ca10 r="0" g="0" b="0" a="0"/><cc11 r="194" g="195" b="199" a="255"/><ca11 r="0" g="0" b="0" a="0"/><cc12 r="194" g="195" b="199" a="255"/><ca12 r="0" g="0" b="0" a="0"/><cc13 r="194" g="195" b="199" a="255"/><ca13 r="0" g="0" b="0" a="0"/><cc14 r="194" g="195" b="199" a="255"/><ca14 r="0" g="0" b="0" a="0"/><cc15 r="255" g="119" b="168" a="255"/><ca15 r="255" g="119" b="168" a="255"/><cc16 r="194" g="195" b="199" a="255"/><ca16 r="0" g="0" b="0" a="0"/><cc17 r="255" g="119" b="168" a="255"/><ca17 r="255" g="119" b="168" a="255"/><cc18 r="194" g="195" b="199" a="255"/><ca18 r="0" g="0" b="0" a="0"/><cc19 r="194" g="195" b="199" a="255"/><ca19 r="0" g="0" b="0" a="0"/><cc20 r="194" g="195" b="199" a="255"/><ca20 r="0" g="0" b="0" a="0"/><cc21 r="194" g="195" b="199" a="255"/><ca21 r="0" g="0" b="0" a="0"/><cc22 r="110" g="110" b="110" a="255"/><ca22 r="0" g="0" b="0" a="0"/><cc23 r="194" g="195" b="199" a="255"/><ca23 r="0" g="0" b="0" a="0"/><cc24 r="194" g="195" b="199" a="255"/><ca24 r="0" g="0" b="0" a="0"/><cc25 r="255" g="119" b="168" a="255"/><ca25 r="255" g="119" b="168" a="255"/><cc26 r="194" g="195" b="199" a="255"/><ca26 r="0" g="0" b="0" a="0"/><cc27 r="194" g="195" b="199" a="255"/><ca27 r="0" g="0" b="0" a="0"/><cc28 r="255" g="119" b="168" a="255"/><ca28 r="255" g="119" b="168" a="255"/><cc29 r="255" g="119" b="168" a="255"/><ca29 r="255" g="119" b="168" a="255"/><cc30 r="194" g="195" b="199" a="255"/><ca30 r="0" g="0" b="0" a="0"/><cc31 r="194" g="195" b="199" a="255"/><ca31 r="0" g="0" b="0" a="0"/><cc32 r="194" g="195" b="199" a="255"/><ca32 r="0" g="0" b="0" a="0"/><cc33 r="255" g="119" b="168" a="255"/><ca33 r="255" g="119" b="168" a="255"/><cc34 r="255" g="119" b="168" a="255"/><ca34 r="255" g="119" b="168" a="255"/><cc35 r="255" g="119" b="168" a="255"/><ca35 r="255" g="119" b="168" a="255"/><cc36 r="255" g="119" b="168" a="255"/><ca36 r="255" g="119" b="168" a="255"/><cc37 r="194" g="195" b="199" a="255"/><ca37 r="0" g="0" b="0" a="0"/><cc38 r="194" g="195" b="199" a="255"/><ca38 r="0" g="0" b="0" a="0"/><cc39 r="255" g="119" b="168" a="255"/><ca39 r="255" g="119" b="168" a="255"/><cc40 r="110" g="110" b="110" a="255"/><ca40 r="0" g="0" b="0" a="0"/><cc41 r="255" g="119" b="168" a="255"/><ca41 r="255" g="119" b="168" a="255"/><cc42 r="194" g="195" b="199" a="255"/><ca42 r="0" g="0" b="0" a="0"/><cc43 r="255" g="119" b="168" a="255"/><ca43 r="255" g="119" b="168" a="255"/><cc44 r="194" g="195" b="199" a="255"/><ca44 r="0" g="0" b="0" a="0"/><cc45 r="194" g="195" b="199" a="255"/><ca45 r="0" g="0" b="0" a="0"/><cc46 r="194" g="195" b="199" a="255"/><ca46 r="0" g="0" b="0" a="0"/><cc47 r="255" g="119" b="168" a="255"/><ca47 r="255" g="119" b="168" a="255"/><cc48 r="255" g="119" b="168" a="255"/><ca48 r="255" g="119" b="168" a="255"/><cc49 r="194" g="195" b="199" a="255"/><ca49 r="0" g="0" b="0" a="0"/><cc50 r="194" g="195" b="199" a="255"/><ca50 r="0" g="0" b="0" a="0"/><cc51 r="194" g="195" b="199" a="255"/><ca51 r="0" g="0" b="0" a="0"/><cc52 r="194" g="195" b="199" a="255"/><ca52 r="0" g="0" b="0" a="0"/><cc53 r="194" g="195" b="199" a="255"/><ca53 r="0" g="0" b="0" a="0"/><cc54 r="194" g="195" b="199" a="255"/><ca54 r="0" g="0" b="0" a="0"/><cc55 r="194" g="195" b="199" a="255"/><ca55 r="0" g="0" b="0" a="0"/><cc56 r="194" g="195" b="199" a="255"/><ca56 r="0" g="0" b="0" a="0"/><cc57 r="194" g="195" b="199" a="255"/><ca57 r="0" g="0" b="0" a="0"/><cc58 r="110" g="110" b="110" a="255"/><ca58 r="0" g="0" b="0" a="0"/><cc59 r="194" g="195" b="199" a="255"/><ca59 r="0" g="0" b="0" a="0"/><cc60 r="255" g="119" b="168" a="255"/><ca60 r="255" g="119" b="168" a="255"/><cc61 r="255" g="119" b="168" a="255"/><ca61 r="255" g="119" b="168" a="255"/><cc62 r="194" g="195" b="199" a="255"/><ca62 r="0" g="0" b="0" a="0"/><cc63 r="255" g="0" b="43" a="255"/><ca63 r="0" g="226" b="50" a="255"/><cc64 r="194" g="195" b="199" a="255"/><ca64 r="0" g="0" b="0" a="0"/><cc65 r="194" g="195" b="199" a="255"/><ca65 r="0" g="0" b="0" a="0"/><cc66 r="194" g="195" b="199" a="255"/><ca66 r="0" g="0" b="0" a="0"/><cc67 r="194" g="195" b="199" a="255"/><ca67 r="0" g="0" b="0" a="0"/><cc68 r="194" g="195" b="199" a="255"/><ca68 r="0" g="0" b="0" a="0"/><cc69 r="194" g="195" b="199" a="255"/><ca69 r="0" g="0" b="0" a="0"/><cc70 r="194" g="195" b="199" a="255"/><ca70 r="0" g="0" b="0" a="0"/><cc71 r="255" g="119" b="168" a="255"/><ca71 r="255" g="119" b="168" a="255"/><cc72 r="255" g="0" b="43" a="255"/><ca72 r="0" g="226" b="50" a="255"/><cc73 r="194" g="195" b="199" a="255"/><ca73 r="0" g="0" b="0" a="0"/><cc74 r="194" g="195" b="199" a="255"/><ca74 r="0" g="0" b="0" a="0"/><cc75 r="194" g="195" b="199" a="255"/><ca75 r="0" g="0" b="0" a="0"/><cc76 r="194" g="195" b="199" a="255"/><ca76 r="0" g="0" b="0" a="0"/><cc77 r="194" g="195" b="199" a="255"/><ca77 r="0" g="0" b="0" a="0"/><cc78 r="194" g="195" b="199" a="255"/><ca78 r="0" g="0" b="0" a="0"/><cc79 r="194" g="195" b="199" a="255"/><ca79 r="0" g="0" b="0" a="0"/><cc80 r="194" g="195" b="199" a="255"/><ca80 r="0" g="0" b="0" a="0"/></o></c><c d="microprocessor" t="0"><o r="0,0,-1,1,0,0,0,-1,0" bc="C2C3C7FF" ac="FFFFFFFF" sc="10,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF" custom_name=""><microprocessor_definition name="Game Of Life" description="Conway's Game Of Life" hide_in_inventory="false" width="2" length="1" id_counter="12" id_counter_node="3" transform_index="0" sym0="0" sym1="0" sym2="16448" sym3="20046" sym4="16448" sym5="0" sym6="65535" sym7="65535" sym8="0" sym9="31132" sym10="2642" sym11="2650" sym12="2626" sym13="2626" sym14="2460" sym15="0"><nodes><n id="1" component_id="5" built_slot_index="0"><node label="Display" mode="0" type="6" description="The input signal to be processed." flags="0"><position x="0" y="0" z="0"/></node></n><n id="2" component_id="4" built_slot_index="0"><node label="Display Touch" mode="1" type="5" description="The input signal to be processed." flags="0"><position x="1" y="0" z="0"/></node></n></nodes><group id="0"><pos x="0" y="0"/><data type="0" name="" desc=""><inputs/><outputs/></data><components><c type="56"><object id="6" script='dots = {}
+temp = {}
+step = 1
+tick = 5
+stepcheck = false
+start = true
+grid = true
+
+function onTick()
+	if start then
+		start = false
+		clearScreen()
+	end
+	touchx = input.getNumber(3)
+	touchy = input.getNumber(4)
+	touch = input.getBool(1)
+	step = step+1
+	if step == tick then
+		step = 1
+		if stepcheck then
+			stepDots()
+		end
+	end
+	isPointInRectangle(touchx, touchy, 2, 40, 26, 7)
+	if pressed then
+		clearScreen()
+	end
+	if touch then
+		isPointInRectangle(touchx, touchy, 2, 50, 17, 7)
+		if pressed  and not on1 then
+			on1 = true
+			stepcheck = not stepcheck
+		end
+	else
+		on1 = false
+	end
+	if touch then
+		isPointInRectangle(touchx, touchy, 2, 60, 22, 7)
+		if pressed and not on2 and not stepcheck then
+			on2 = true
+			stepDots()
+		end
+	else
+		on2 = false
+	end
+	if touch then
+		isPointInRectangle(touchx, touchy, 2, 70, 22, 7)
+		if pressed and not on3 and not stepcheck then
+			on3 = true
+			grid = not grid
+		end
+	else
+		on3 = false
+	end
+	paint(touchx, touchy)
+end
+function onDraw()
+	if grid then
+		drawGrid()
+	end
+	drawDots()
+	screen.setColor(255, 255, 255)
+	screen.drawText(2, 2, "Game")
+	screen.drawText(2, 9, "Of")
+	screen.drawText(2, 16, "Life")
+	screen.setColor(25, 25, 25)
+	screen.drawRectF(2, 40, 26, 7)
+	screen.setColor(255, 255, 255)
+	screen.drawText(3, 41, "CLEAR")
+	screen.setColor(25, 25, 25)
+	screen.drawRectF(2, 50, 17, 7)
+	screen.setColor(255, 255, 255)
+	if stepcheck then
+		screen.drawText(3, 51, "ON")
+	else
+		screen.drawText(3, 51, "OFF")
+	end
+	screen.setColor(25, 25, 25)
+	screen.drawRectF(2, 60, 22, 7)
+	screen.setColor(255, 255, 255)
+	screen.drawText(3, 61, "STEP")
+	screen.setColor(25, 25, 25)
+	screen.drawRectF(2, 70, 22, 7)
+	screen.setColor(255, 255, 255)
+	screen.drawText(3, 71, "GRID")
+end
+	
+function drawGrid()
+	for i1 = 1,43 do
+		for i2 = 0,32 do
+			screen.setColor(50, 50, 50)
+			screen.drawLine(28+i1*3, 0, 28+i1*3, 96)
+			screen.drawLine(31, i2*3, 160, i2*3)
+		end
+	end
+end
+
+function drawDots()
+	for i1 = 1,44 do
+		for i2 = 1,33 do
+			ii1 = i1+1
+			ii2 = i2+1
+			if dots[ii1][ii2] then
+				getNeighbours(ii1, ii2)
+				screen.setColor(0, 255, (nb*255)/8)
+				drawDot(29+i1*3, i2*3-2)
+			end
+		end
+	end
+end
+
+function drawDot(x, y)
+	screen.drawRectF(x, y, 2, 2)
+end
+
+function stepDots()
+	copytableDotsToTemp()
+	for i1 = 2,44 do
+		for i2 = 2,33 do
+			getNeighbours(i1, i2)
+			if nb&lt;2 then
+				temp[i1][i2] = false
+			end
+			if nb == 2 and dots[i1][i2] then
+				temp[i1][i2] = true
+			end
+			if nb == 3 then
+				temp[i1][i2] = true
+			end
+			if nb&gt;3 then
+				temp[i1][i2] = false
+			end
+	    end
+	end
+	copytableTempToDots()
+end
+
+function getNeighbours(x, y)
+	nb = 0
+	x1 = x-1
+	y1 = y+1
+	if dots[x1][y1] then
+		nb = nb+1
+	end
+	x1 = x
+	y1 = y+1
+	if dots[x1][y1] then
+		nb = nb+1
+	end
+	x1 = x+1
+	y1 = y+1
+	if dots[x1][y1] then
+		nb = nb+1
+	end
+	x1 = x-1
+	y1 = y
+	if dots[x1][y1] then
+		nb = nb+1
+	end
+	x1 = x+1
+	y1 = y
+	if dots[x1][y1] then
+		nb = nb+1
+	end
+	x1 = x-1
+	y1 = y-1
+	if dots[x1][y1] then
+		nb = nb+1
+	end
+	x1 = x
+	y1 = y-1
+	if dots[x1][y1] then
+		nb = nb+1
+	end
+	x1 = x+1
+	y1 = y-1
+	if dots[x1][y1] then
+		nb = nb+1
+	end
+end
+
+function copytableDotsToTemp()
+	for i1 = 1,45 do
+		for i2 = 1,34 do
+			temp[i1][i2] = dots[i1][i2]
+		end
+	end
+end
+
+function copytableTempToDots()
+	for i1 = 1,45 do
+		for i2 = 1,34 do
+			dots[i1][i2] = temp[i1][i2]
+		end
+	end
+end
+
+function paint(x, y)
+	for i1 = 1,44 do
+		for i2 = 1,33 do
+			if touch and not last then
+				isPointInRectangle(x+4, y+4, 29+i1*3, i2*3-2, 3, 3)
+				if pressed then
+					dots[i1][i2] = not dots[i1][i2]
+					last = true
+				end
+			else
+				if not touch then
+					last = false
+				end
+			end
+		end
+	end
+end
+
+function isPointInRectangle(x, y, rectX, rectY, rectW, rectH)
+	pressed =  x &gt; rectX and y &gt; rectY and x &lt; rectX+rectW and y &lt; rectY+rectH
+end
+
+function clearScreen()
+	for i1 = 1,45 do
+		if dots[i1] == nil then dots[i1] = {} end
+		for i2 = 1,34 do
+			dots[i1][i2] = false
+		end
+	end
+	for i1 = 1,45 do
+		if temp[i1] == nil then temp[i1] = {} end
+		for i2 = 1,34 do
+			temp[i1][i2] = false
+		end
+	end
+end'><pos x="-0.5" y="-0.75"/><in1 component_id="4" node_index="0"/><in2 component_id="0" node_index="0"/><out1/><out2/></object></c></components><components_bridge><c type="4"><object id="4"><pos x="-2" y="-0.75"/><in1 component_id="0" node_index="0"/><out1/></object></c><c type="7"><object id="5"><pos x="1" y="-0.75"/><in1 component_id="6" node_index="1"/><out1/></object></c></components_bridge><groups/></group></microprocessor_definition><vp x="-2" y="0" z="-3"/><logic_slots><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value/></slot></logic_slots></o></c></components></body><body unique_id="112"><initial_local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><components><c d="connector_electric" t="0"><o r="0,0,1,-1,0,0,0,-1,0" bc="C2C3C7FF" ac="FFFFFFFF" sc="5,FFFFFFFF,C2C3C7FF,C2C3C7FF,C2C3C7FF,FFFFFFFF" custom_name=""><vp x="-7" y="0" z="-3"/><logic_slots><slot value="false"/><slot value="false"/><slot value="false"/><slot value="false"/><slot value="0"/><slot value="0"/><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value/></slot><slot><value/></slot></logic_slots></o></c><c d="sign" t="0"><o r="0,0,1,0,-1,0,1,0,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6,FFFFFFFF,C2C3C7FF,C2C3C7FF,C2C3C7FF,C2C3C7FF,FFFFFFFF" custom_name="flappy bird"><vp x="-7" y="0" z="-4"/><logic_slots><slot value="false"/></logic_slots><cc0 r="194" g="195" b="199" a="255"/><ca0 r="0" g="0" b="0" a="0"/><cc1 r="194" g="195" b="199" a="255"/><ca1 r="0" g="0" b="0" a="0"/><cc2 r="194" g="195" b="199" a="255"/><ca2 r="0" g="0" b="0" a="0"/><cc3 r="194" g="195" b="199" a="255"/><ca3 r="0" g="0" b="0" a="0"/><cc4 r="253" g="165" b="2" a="255"/><ca4 r="255" g="255" b="255" a="255"/><cc5 r="194" g="195" b="199" a="255"/><ca5 r="0" g="0" b="0" a="0"/><cc6 r="194" g="195" b="199" a="255"/><ca6 r="0" g="0" b="0" a="0"/><cc7 r="194" g="195" b="199" a="255"/><ca7 r="0" g="0" b="0" a="0"/><cc8 r="194" g="195" b="199" a="255"/><ca8 r="0" g="0" b="0" a="0"/><cc9 r="194" g="195" b="199" a="255"/><ca9 r="0" g="0" b="0" a="0"/><cc10 r="194" g="195" b="199" a="255"/><ca10 r="0" g="0" b="0" a="0"/><cc11 r="194" g="195" b="199" a="255"/><ca11 r="0" g="0" b="0" a="0"/><cc12 r="253" g="165" b="2" a="255"/><ca12 r="255" g="255" b="255" a="255"/><cc13 r="253" g="165" b="2" a="255"/><ca13 r="255" g="255" b="255" a="255"/><cc14 r="194" g="195" b="199" a="255"/><ca14 r="0" g="0" b="0" a="0"/><cc15 r="194" g="195" b="199" a="255"/><ca15 r="0" g="0" b="0" a="0"/><cc16 r="194" g="195" b="199" a="255"/><ca16 r="0" g="0" b="0" a="0"/><cc17 r="194" g="195" b="199" a="255"/><ca17 r="0" g="0" b="0" a="0"/><cc18 r="194" g="195" b="199" a="255"/><ca18 r="0" g="0" b="0" a="0"/><cc19 r="194" g="195" b="199" a="255"/><ca19 r="0" g="0" b="0" a="0"/><cc20 r="194" g="195" b="199" a="255"/><ca20 r="0" g="0" b="0" a="0"/><cc21 r="255" g="231" b="39" a="255"/><ca21 r="255" g="255" b="255" a="255"/><cc22 r="255" g="231" b="39" a="255"/><ca22 r="255" g="255" b="255" a="255"/><cc23 r="194" g="195" b="199" a="255"/><ca23 r="0" g="0" b="0" a="0"/><cc24 r="194" g="195" b="199" a="255"/><ca24 r="0" g="0" b="0" a="0"/><cc25 r="194" g="195" b="199" a="255"/><ca25 r="0" g="0" b="0" a="0"/><cc26 r="194" g="195" b="199" a="255"/><ca26 r="0" g="0" b="0" a="0"/><cc27 r="194" g="195" b="199" a="255"/><ca27 r="0" g="0" b="0" a="0"/><cc28 r="194" g="195" b="199" a="255"/><ca28 r="0" g="0" b="0" a="0"/><cc29 r="255" g="255" b="255" a="255"/><ca29 r="255" g="255" b="255" a="255"/><cc30 r="20" g="20" b="20" a="255"/><ca30 r="255" g="255" b="255" a="255"/><cc31 r="227" g="205" b="23" a="255"/><ca31 r="227" g="205" b="23" a="255"/><cc32 r="255" g="231" b="39" a="255"/><ca32 r="255" g="255" b="255" a="255"/><cc33 r="194" g="195" b="199" a="255"/><ca33 r="0" g="0" b="0" a="0"/><cc34 r="194" g="195" b="199" a="255"/><ca34 r="0" g="0" b="0" a="0"/><cc35 r="194" g="195" b="199" a="255"/><ca35 r="0" g="0" b="0" a="0"/><cc36 r="194" g="195" b="199" a="255"/><ca36 r="0" g="0" b="0" a="0"/><cc37 r="194" g="195" b="199" a="255"/><ca37 r="0" g="0" b="0" a="0"/><cc38 r="255" g="231" b="39" a="255"/><ca38 r="255" g="255" b="255" a="255"/><cc39 r="255" g="231" b="39" a="255"/><ca39 r="255" g="255" b="255" a="255"/><cc40 r="227" g="205" b="23" a="255"/><ca40 r="227" g="205" b="23" a="255"/><cc41 r="227" g="205" b="23" a="255"/><ca41 r="227" g="205" b="23" a="255"/><cc42 r="194" g="195" b="199" a="255"/><ca42 r="0" g="0" b="0" a="0"/><cc43 r="194" g="195" b="199" a="255"/><ca43 r="0" g="0" b="0" a="0"/><cc44 r="194" g="195" b="199" a="255"/><ca44 r="0" g="0" b="0" a="0"/><cc45 r="194" g="195" b="199" a="255"/><ca45 r="0" g="0" b="0" a="0"/><cc46 r="194" g="195" b="199" a="255"/><ca46 r="0" g="0" b="0" a="0"/><cc47 r="255" g="231" b="39" a="255"/><ca47 r="255" g="255" b="255" a="255"/><cc48 r="255" g="231" b="39" a="255"/><ca48 r="255" g="255" b="255" a="255"/><cc49 r="227" g="205" b="23" a="255"/><ca49 r="227" g="205" b="23" a="255"/><cc50 r="227" g="205" b="23" a="255"/><ca50 r="227" g="205" b="23" a="255"/><cc51 r="194" g="195" b="199" a="255"/><ca51 r="0" g="0" b="0" a="0"/><cc52 r="194" g="195" b="199" a="255"/><ca52 r="0" g="0" b="0" a="0"/><cc53 r="194" g="195" b="199" a="255"/><ca53 r="0" g="0" b="0" a="0"/><cc54 r="194" g="195" b="199" a="255"/><ca54 r="0" g="0" b="0" a="0"/><cc55 r="194" g="195" b="199" a="255"/><ca55 r="0" g="0" b="0" a="0"/><cc56 r="194" g="195" b="199" a="255"/><ca56 r="0" g="0" b="0" a="0"/><cc57 r="255" g="231" b="39" a="255"/><ca57 r="255" g="255" b="255" a="255"/><cc58 r="255" g="231" b="39" a="255"/><ca58 r="255" g="255" b="255" a="255"/><cc59 r="227" g="205" b="23" a="255"/><ca59 r="227" g="205" b="23" a="255"/><cc60 r="194" g="195" b="199" a="255"/><ca60 r="0" g="0" b="0" a="0"/><cc61 r="194" g="195" b="199" a="255"/><ca61 r="0" g="0" b="0" a="0"/><cc62 r="194" g="195" b="199" a="255"/><ca62 r="0" g="0" b="0" a="0"/><cc63 r="255" g="0" b="43" a="255"/><ca63 r="0" g="226" b="50" a="255"/><cc64 r="194" g="195" b="199" a="255"/><ca64 r="0" g="0" b="0" a="0"/><cc65 r="194" g="195" b="199" a="255"/><ca65 r="0" g="0" b="0" a="0"/><cc66 r="194" g="195" b="199" a="255"/><ca66 r="0" g="0" b="0" a="0"/><cc67 r="194" g="195" b="199" a="255"/><ca67 r="0" g="0" b="0" a="0"/><cc68 r="194" g="195" b="199" a="255"/><ca68 r="0" g="0" b="0" a="0"/><cc69 r="194" g="195" b="199" a="255"/><ca69 r="0" g="0" b="0" a="0"/><cc70 r="194" g="195" b="199" a="255"/><ca70 r="0" g="0" b="0" a="0"/><cc71 r="194" g="195" b="199" a="255"/><ca71 r="0" g="0" b="0" a="0"/><cc72 r="255" g="0" b="43" a="255"/><ca72 r="0" g="226" b="50" a="255"/><cc73 r="194" g="195" b="199" a="255"/><ca73 r="0" g="0" b="0" a="0"/><cc74 r="194" g="195" b="199" a="255"/><ca74 r="0" g="0" b="0" a="0"/><cc75 r="194" g="195" b="199" a="255"/><ca75 r="0" g="0" b="0" a="0"/><cc76 r="194" g="195" b="199" a="255"/><ca76 r="0" g="0" b="0" a="0"/><cc77 r="194" g="195" b="199" a="255"/><ca77 r="0" g="0" b="0" a="0"/><cc78 r="194" g="195" b="199" a="255"/><ca78 r="0" g="0" b="0" a="0"/><cc79 r="194" g="195" b="199" a="255"/><ca79 r="0" g="0" b="0" a="0"/><cc80 r="194" g="195" b="199" a="255"/><ca80 r="0" g="0" b="0" a="0"/></o></c><c d="microprocessor" t="0"><o r="0,0,-1,1,0,0,0,-1,0" bc="C2C3C7FF" ac="FFFFFFFF" sc="10,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,C2C3C7FF,FFFFFFFF,C2C3C7FF,FFFFFFFF,C2C3C7FF" custom_name=""><microprocessor_definition name="Flappy Bird 2" description="The classic game now on Stormworks Lua!" hide_in_inventory="false" width="2" length="1" id_counter="41" id_counter_node="3" transform_index="0" sym0="30720" sym1="30720" sym2="30720" sym3="30720" sym4="18440" sym5="30736" sym6="66" sym7="244" sym8="208" sym9="31136" sym10="18496" sym11="30720" sym12="30720" sym13="30720" sym14="30720" sym15="30720"><nodes><n id="1" component_id="2" built_slot_index="0"><node label="monitor composite input" mode="1" type="5" description="monitor composite touch input" flags="0"><position x="0" y="0" z="0"/></node></n><n id="2" component_id="7" built_slot_index="0"><node label="video output" mode="0" type="6" description="this plugs into a monitor" flags="0"><position x="1" y="0" z="0"/></node></n></nodes><group id="0"><pos x="0" y="0"/><data type="0" name="" desc=""><inputs/><outputs/></data><components><c type="56"><object id="8" script='--background block
+mv = false
+show = false
+p=0
+c=0
+a=0
+b=0
+reset=false
+function onTick()
+	mv = input.getBool(32)
+	show = input.getBool(31)
+	reset=input.getBool(23)
+	if reset then
+		p=0
+		c=0
+		a=0
+		b=0
+	end
+	if mv then
+		if c &gt; 2 then
+			c=0
+			p=p+1
+			a=a+1
+			b=b+1
+			if p &gt; 160 then
+				p = 0
+			end
+			if a &gt; 200 then
+				a = 0
+			end
+			if b &gt; 90 then
+				b = 0
+			end
+		else
+			c = c + 1
+		end
+	end
+end
+
+function onDraw()
+	w = screen.getWidth()
+	h = screen.getHeight()
+	if show then
+		screen.setColor(25,50,255)
+		screen.drawRectF(0,0,w,2*(h/3))
+		screen.setColor(194,178,128)
+		screen.drawRectF(0,(2*(h/3)),w,h/3)
+		screen.setColor(50,255,30)
+		if w &lt; 65 then
+			screen.drawRectF(0,2*(h/3)+1,w, 4)
+		else
+			screen.drawRectF(0,2*(h/3),w, 4)
+		end
+		
+		l=b/3
+		for t=-5,5 do
+		screen.setColor(100,100,100)
+		screen.drawCircleF(w-2-l+(t*30),21,3)
+		screen.drawCircleF(w-8-l+(t*30),20,6)
+		screen.drawCircleF(w-14-l+(t*30),21,3)
+		end
+		
+		screen.setColor(25,105,15)
+		for i=-20,20 do
+			screen.drawLine(w-1-p+(i*8),2*(h/3),w-4-p+(i*8),(2*(h/3))+4)
+			screen.drawLine(w-2-p+(i*8),2*(h/3),w-5-p+(i*8),(2*(h/3))+4)
+			screen.drawLine(w-3-p+(i*8),2*(h/3),w-6-p+(i*8),(2*(h/3))+4)
+			screen.drawLine(w-4-p+(i*8),2*(h/3),w-7-p+(i*8),(2*(h/3))+4)
+		end
+	
+		k = a/2
+		for i=-10,10 do
+			screen.setColor(25,30,35)
+			screen.drawRectF(w-10-k+(i*50),2*(h/3),10,-15)
+			screen.drawRectF(w-24-k+(i*50),2*(h/3),12,-26)
+			screen.drawRectF(w-36-k+(i*50),2*(h/3),10,-15)
+	
+			screen.setColor(80,80,80)
+			screen.drawRectF(w-8-k+(i*50),2*(h/3)-2,2,-4)
+			screen.drawRectF(w-3-k+(i*50),2*(h/3)-2,2,-4)
+			screen.drawRectF(w-8-k+(i*50),2*(h/3)-8,2,-4)
+			screen.drawRectF(w-3-k+(i*50),2*(h/3)-8,2,-4)
+		
+			screen.drawRectF(w-22-k+(i*50),2*(h/3)-2,2,-4)
+			screen.drawRectF(w-15-k+(i*50),2*(h/3)-2,2,-4)
+			screen.drawRectF(w-22-k+(i*50),2*(h/3)-8,2,-4)
+			screen.drawRectF(w-15-k+(i*50),2*(h/3)-8,2,-4)
+			screen.drawRectF(w-22-k+(i*50),2*(h/3)-20,2,-4)
+			screen.drawRectF(w-15-k+(i*50),2*(h/3)-20,2,-4)
+			screen.drawRectF(w-22-k+(i*50),2*(h/3)-14,2,-4)
+			screen.drawRectF(w-15-k+(i*50),2*(h/3)-14,2,-4)
+		
+			screen.drawRectF(w-34-k+(i*50),2*(h/3)-2,2,-4)
+			screen.drawRectF(w-29-k+(i*50),2*(h/3)-2,2,-4)
+			screen.drawRectF(w-34-k+(i*50),2*(h/3)-8,2,-4)
+			screen.drawRectF(w-29-k+(i*50),2*(h/3)-8,2,-4)
+		end
+	end
+	--screen.setColor(0,0,0)
+	--screen.drawText(1,1,"p = " .. p)
+	--screen.drawText(1,8,"a = " .. a)
+	--screen.drawText(1,15,"b = " .. b)
+end'><pos x="0.75" y="-0.25"/><in1 component_id="9" node_index="0"/><in2 component_id="0" node_index="0"/><out1/><out2/></object></c><c type="56"><object id="9" script='game=false
+rn=0
+pipeScore=0
+pb=false
+firstRun=true
+mvp=false
+dd=false
+mb=false
+mbb=false
+f=0
+hs=0
+savedata=false
+bs=false
+t=5
+function onTick()
+	if f &lt; 10 then
+	f=f+1
+	end
+	isPressed = input.getBool(1)
+	pipeScore=input.getNumber(13)
+	hs=input.getNumber(14)
+	pb=input.getBool(24)
+	bs=input.getBool(21)
+	if game then
+		output.setBool(32,mb)--mv bkg
+		output.setBool(31,true)--show bkg
+		output.setBool(30,mvp)--move pipes
+		output.setBool(29,true)--draw pipes
+		output.setBool(28,mbb)
+		output.setBool(27,true)
+	else
+		output.setBool(32,false)--mv bkg
+		output.setBool(31,true)--show bkg
+		output.setBool(30,false)--move pipes
+		output.setBool(29,false)--draw pipes
+		output.setBool(28,false)
+		output.setBool(27,false)
+	end
+	output.setNumber(8,input.getNumber(8))
+	output.setBool(25, isPressed)
+	rn = input.getNumber(8)
+	output.setNumber(8,rn)
+	output.setNumber(11,input.getNumber(11))
+	if isPressed and firstRun then
+		game = true
+		firstRun = false
+		mvp=true
+		mb=true
+		mbb=true
+	end
+	if pb and f &gt; 9 then
+		dd=true
+	end
+	
+	if dd then--dead
+		mvp=false
+		mb=false
+		mbb=false
+		if pipeScore &gt; hs then
+			savedata = true
+		end
+		if t &gt; -1 then
+		t = t - 1
+		end
+	end
+	
+	if dd and isPressed and t &lt; 0 then
+		savedata=false
+		dd=false
+		output.setBool(23,true)
+		mvp=true
+		mb=true
+		mbb=true
+		f=0
+		pb=false
+		pipeScore=0
+		t=5
+	else
+		output.setBool(23,false)
+	end
+	output.setBool(22,savedata)
+	output.setNumber(14,pipeScore)
+end
+
+function onDraw()
+	w = screen.getWidth()
+	h = screen.getHeight()	
+	if not game or dd then
+		if bs then
+		screen.setColor(255,255,255)
+		screen.drawText((w/2)-32,(h/2)-24,"touch to start")
+		end
+	end
+	if dd then
+		screen.setColor(150,150,150)
+		screen.drawRectF((w/2)-28,(h/2)-15,56,30)
+		screen.setColor(200,0,0)
+		screen.drawText((w/2)-26,(h/2)-13,"game over")
+		screen.setColor(0,0,0)
+		screen.drawText((w/2)-26,(h/2)-7,"your score:")
+		screen.drawText((w/2)-26,(h/2)+1,math.floor(pipeScore))
+		if pipeScore &gt; hs or savedata then
+			if bs then
+			screen.setColor(255,0,255)
+			screen.drawText((w/2)-26,(h/2)+9,"high score")
+			end
+		end
+	end
+	screen.setColor(255,255,255)
+	screen.drawText(2,2,"Score: " .. math.floor(pipeScore))
+	screen.drawText(2,9,"HI SCORE: " .. math.floor(hs))
+	if pb then
+		--screen.drawText(2,9,"boop=true")
+	else
+		--screen.drawText(2,9,"boop=false")
+	end
+end'><pos x="0.75" y="-1.75"/><in1 component_id="36" node_index="0"/><in2 component_id="13" node_index="1"/><out1/><out2/></object></c><c type="56"><object id="13" script="--bird drawing block
+mv=false
+sh=false
+dx = 20
+dy = 0
+a=0
+c=0
+l=0
+ct = 10
+jump=false
+jp=false
+ff=false
+b=0
+reset=false
+function onTick()
+	reset = input.getBool(23)
+	mv = input.getBool(28)
+	sh = input.getBool(27)
+	jump = input.getBool(25)
+	if reset then
+		dx = 20
+		dy = 0
+		a=0
+		c=0
+		l=0
+		ct = 10
+		jump=false
+		jp=false
+		ff=false
+		b=0
+	end
+	if jump then
+		jp = true
+		b=0
+		ct=10
+	end
+	if mv then
+		if c&gt;2 then
+			c=0
+			if not jp and b &lt; 3 then
+				a=a+1
+				b=b+1
+			elseif not jp and b &gt;= 3 then
+				a=a+2
+				b=b+1
+			else
+				ct=ct-1
+				if ct &gt; 6 then
+					a=a-3
+				elseif ct &gt; 3 then
+				a=a-2
+				else
+				a=a-1
+				end
+				if ct == 0 then
+					jp = false
+					ct = 10
+				end		
+			end
+		else
+			c=c+1
+		end
+	end
+	output.setNumber(11, dy+a)
+end
+
+function onDraw()
+	w = screen.getWidth()
+	h = screen.getHeight()
+	dy = h/2
+	
+	db(dx,dy + a)
+end
+	
+function sl(x1,y1,x2,y2)
+	screen.drawLine(x1,y1,x2,y2)
+end
+	
+function db(px,py)
+	screen.setColor(255,255,255)
+	sl(px+8,py+1,px+8,py+4)
+	sl(px+9,py+1,px+9,py+4)
+	sl(px+10,py+2,px+10,py+4)
+	sl(px+1,py+4,px+4,py+4)
+	sl(px+1,py+5,px+4,py+5)
+	screen.setColor(0,0,0)
+	sl(px+7,py,px+8,py)
+	sl(px+8,py,px+9,py)
+	sl(px+9,py,px+10,py)
+	sl(px+4,py+1,px+5,py+1)
+	sl(px+5,py+1,px+6,py+1)
+	sl(px+6,py+1,px+7,py+1)
+	sl(px+7,py+1,px+8,py+1)
+	sl(px+10,py+1,px+11,py+1)
+	sl(px+3,py+2,px+5,py+2)
+	sl(px+7,py+2,px+8,py+2)
+	sl(px+11,py+2,px+12,py+2)
+	sl(px+9,py+2,px+10,py+2)
+	sl(px+1,py+3,px+4,py+3)
+	sl(px+7,py+3,px+8,py+3)
+	sl(px+11,py+3,px+12,py+3)
+	sl(px+0,py+4,px+0,py+7)
+	sl(px+4,py+4,px+6,py+4)
+	sl(px+8,py+4,px+14,py+4)
+	sl(px+5,py+5,px+6,py+5)
+	sl(px+9,py+5,px+9,py+9)
+	sl(px+13,py+5,px+13,py+8)
+	sl(px+4,py+6,px+6,py+6)
+	sl(px+11,py+6,px+14,py+6)
+	sl(px+1,py+7,px+5,py+7)
+	sl(px+2,py+8,px+3,py+8)
+	sl(px+10,py+8,px+13,py+8)
+	sl(px+3,py+9,px+9,py+9)
+	screen.setColor(225,20,20)
+	sl(px+10,py+5,px+13,py+5)
+	sl(px+10,py+6,px+11,py+6)
+	sl(px+10,py+7,px+13,py+7)
+	screen.setColor(255,255,0)
+	sl(px+5,py+2,px+7,py+2)
+	sl(px+4,py+3,px+7,py+3)
+	sl(px+6,py+4,px+8,py+4)
+	sl(px+6,py+5,px+9,py+5)
+	sl(px+4,py+5,px+5,py+5)
+	sl(px+1,py+6,px+4,py+6)
+	sl(px+6,py+6,px+9,py+6)
+	screen.setColor(150,75,0)
+	sl(px+5,py+7,px+9,py+7)
+	sl(px+3,py+8,px+9,py+8)
+end"><pos x="0.75" y="-3"/><in1 component_id="9" node_index="0"/><in2 component_id="14" node_index="1"/><out1/><out2/></object></c><c type="56"><object id="14" script='--pipe drawing block
+p1loc=0
+p2loc=0
+p1h=0
+p2h=0
+p3h=0
+mv=false
+sh=false
+c=0
+a=0
+b=-50
+d=-100
+w=0
+rn=0
+boop=false
+bh=0
+h=0
+inPipe=false
+pts=-1
+a2s=false
+reset=false
+function onTick()
+	mv = input.getBool(30)
+	sh = input.getBool(29)
+	rn=input.getNumber(8)
+	bh=input.getNumber(11)
+	reset=input.getBool(23)
+	if reset then
+		p1loc=0
+		p2loc=0
+		p1h=0
+		p2h=0
+		p3h=0
+		mv=false
+		sh=false
+		c=0
+		a=0
+		b=-50
+		d=-100
+		w=0
+		rn=0
+		boop=false
+		bh=0
+		h=0
+		inPipe=false
+		pts=-1
+		a2s=false
+	end
+	if mv then
+		if c &gt; 2 then
+			c=0
+			a=a+1
+			b=b+1
+			d=d+1
+		else
+			c=c+1
+		end
+		if a &gt; 160 then
+			a=0
+			p1h=(rn*8)
+		end
+		if b &gt; 160 then
+			b=0
+			p2h=(rn*8)
+		end
+		if d &gt; 160 then
+			d=0
+			p3h=(rn*8)
+		end
+	end
+	g1=w+(a*-1) &gt; 32 and w+(a*-1) &lt; 51
+	g2=w+(b*-1) &gt; 32 and w+(b*-1) &lt; 51
+	g3=w+(d*-1) &gt; 32 and w+(d*-1) &lt; 51
+	t1=(bh &lt; (2*(h/3))-40+p1h or bh+7 &gt; (2*(h/3))+p1h)
+	t2=(bh &lt; (2*(h/3))-40+p2h or bh+7 &gt; (2*(h/3))+p2h)
+	t3=(bh &lt; (2*(h/3))-40+p3h or bh+7 &gt; (2*(h/3))+p3h)
+	if g1 and t1 then
+		boop=true
+	elseif g2 and t2 then
+		boop=true
+	elseif g3 and t3 then
+		boop=true
+	else
+		boop=false
+	end
+	
+	if (g1 or g2 or g3) and not a2s then
+		a2s=true
+	end
+	if not g1 and not g2 and not g3 and a2s then
+		a2s=false
+		pts=pts+1
+	end
+	output.setBool(24,boop)
+	output.setNumber(13,pts)
+end
+
+function onDraw()
+	w = screen.getWidth()
+	h = screen.getHeight()
+	
+	if sh then
+	dp(a*-1, p1h)
+	dp((b*-1), p2h)
+	dp((d*-1), p3h)
+	end
+	--screen.drawText(1,1,"pp " .. w+(a*-1))
+	--screen.drawText(1,8,"rn" .. rn)
+end
+
+function dp(x,y)
+	screen.setColor(20,200,20)
+	screen.drawRectF(w-20+x,(2*(h/3))+y,10,60)
+	screen.drawRectF(w-21+x,(2*(h/3))+y,12,6)
+	screen.setColor(70,255,70)
+	dl(w-21+x,(2*(h/3))+y,w-21+x,(2*(h/3))+6+y)
+	dl(w-20+x,(2*(h/3))+y,w-20+x,h)
+	screen.setColor(40,250,40)
+	dl(w-19+x,(2*(h/3))+y,w-19+x,h)
+	dl(w-18+x,(2*(h/3))+y,w-18+x,h)
+	dl(w-16+x,(2*(h/3))+y,w-16+x,h)
+	screen.setColor(15,170,15)
+	dl(w-14+x,(2*(h/3))+y,w-14+x,h)
+	screen.setColor(10,150,10)
+	dl(w-12+x,(2*(h/3))+y,w-12+x,h)
+	dl(w-11+x,(2*(h/3))+y,w-11+x,h)
+	dl(w-10+x,(2*(h/3))+y,w-10+x,(2*(h/3))+6+y)
+	screen.setColor(0,0,0)
+	dl(w-10+x,(2*(h/3))+y+6,w-10+x,h)
+	dl(w-21+x,(2*(h/3))+y+6,w-21+x,h)
+	dl(w-9+x,(2*(h/3))+y,w-9+x,(2*(h/3))+7+y)
+	dl(w-22+x,(2*(h/3))+y,w-22+x,(2*(h/3))+7+y)
+	dl(w-22+x,(2*(h/3))-1+y,w-8+x,(2*(h/3))-1+y)
+	dl(w-22+x,(2*(h/3))+6+y,w-8+x,(2*(h/3))+6+y)
+	
+	screen.setColor(20,200,20)
+	screen.drawRectF(w-20+x,(2*(h/3))-40+y, 10, -60)
+	screen.drawRectF(w-21+x,(2*(h/3))-39+y, 12, -6)
+	screen.setColor(70,255,70)
+	dl(w-21+x,(2*(h/3))-40+y,w-21+x,(2*(h/3))-46+y)
+	dl(w-20+x,(2*(h/3))-40+y,w-20+x,-1)
+	screen.setColor(40,250,40)
+	dl(w-19+x,(2*(h/3))-40+y,w-19+x,-1)
+	dl(w-18+x,(2*(h/3))-40+y,w-18+x,-1)
+	dl(w-16+x,(2*(h/3))-40+y,w-16+x,-1)
+	screen.setColor(15,170,15)
+	dl(w-14+x,(2*(h/3))-40+y,w-14+x,-1)
+	screen.setColor(10,150,10)
+	dl(w-12+x,(2*(h/3))-40+y,w-12+x,-1)
+	dl(w-11+x,(2*(h/3))-40+y,w-11+x,-1)
+	dl(w-10+x,(2*(h/3))-40+y,w-10+x,(2*(h/3))-46+y)
+	screen.setColor(0,0,0)
+	dl(w-22+x,(2*(h/3))-39+y,w-8+x,(2*(h/3))-39+y)
+	dl(w-22+x,(2*(h/3))-39+y,w-22+x,(2*(h/3))-46+y)
+	dl(w-9+x,(2*(h/3))-39+y,w-9+x,(2*(h/3))-46+y)
+	dl(w-22+x,(2*(h/3))-46+y,w-8+x,(2*(h/3))-46+y)
+	dl(w-21+x,(2*(h/3))-46+y,w-21+x,-1)
+	dl(w-10+x,(2*(h/3))-46+y,w-10+x,-1)
+end
+	
+function dl(x1,y1,x2,y2)
+	screen.drawLine(x1,y1,x2,y2)
+end'><pos x="0.75" y="-4"/><in1 component_id="9" node_index="0"/><in2 component_id="8" node_index="1"/><out1/><out2/></object></c><c type="40"><object id="17" count="7" offset="7"><pos x="-2.5" y="-3.25"/><inc component_id="2" node_index="0"/><in1 component_id="20" node_index="0"/><in2 component_id="0" node_index="0"/><in3 component_id="0" node_index="0"/><in4 component_id="18" node_index="0"/><in5 component_id="0" node_index="0"/><in6 component_id="34" node_index="0"/><in7 component_id="37" node_index="0"/><out1/></object></c><c type="31"><object id="18" i="10"><pos x="2.25" y="-2.75"/><in1 component_id="13" node_index="0"/><out1/></object></c><c type="33"><object id="19" n="external input for random seed" on="on" off="off" v="false"><pos x="-7.25" y="-3"/><out1/></object></c><c type="22"><object id="20"><pos x="-5.25" y="-2.5"/><in1 component_id="0" node_index="0"/><in2 component_id="30" node_index="0"/><in3 component_id="19" node_index="0"/><out1/></object></c><c type="27"><object id="21" on="0.8" off="0.8"><pos x="-12.75" y="-2.25"/><in1 component_id="25" node_index="0"/><out1/></object></c><c type="22"><object id="22"><pos x="-9.25" y="-2.25"/><in1 component_id="28" node_index="0"/><in2 component_id="29" node_index="0"/><in3 component_id="21" node_index="0"/><out1/></object></c><c type="22"><object id="23"><pos x="-9.25" y="-1"/><in1 component_id="27" node_index="0"/><in2 component_id="26" node_index="0"/><in3 component_id="24" node_index="0"/><out1/></object></c><c type="27"><object id="24" on="0.5" off="0.5"><pos x="-12.75" y="-1"/><in1 component_id="25" node_index="0"/><out1/></object></c><c type="16"><object id="25"><pos x="-14.5" y="-1.5"/><out1/></object></c><c type="15"><object id="26"><pos x="-11" y="-0.75"/><out1/><n text="-1" value="-1"/></object></c><c type="15"><object id="27"><pos x="-11" y="0"/><out1/><n text="-2" value="-2"/></object></c><c type="15"><object id="28"><pos x="-11" y="-1.75"/><out1/><n text="1" value="1"/></object></c><c type="15"><object id="29"><pos x="-11" y="-2.5"/><out1/><n text="2" value="2"/></object></c><c type="22"><object id="30"><pos x="-7.75" y="-1.5"/><in1 component_id="23" node_index="0"/><in2 component_id="22" node_index="0"/><in3 component_id="31" node_index="0"/><out1/></object></c><c type="27"><object id="31" on="0.1" off="0.1"><pos x="-9.25" y="-3"/><in1 component_id="25" node_index="0"/><out1/></object></c><c type="31"><object id="34" i="12"><pos x="2.25" y="-3.75"/><in1 component_id="14" node_index="0"/><out1/></object></c><c type="29"><object id="35" i="23"><pos x="2.25" y="-4.5"/><in1 component_id="14" node_index="0"/><out1/></object></c><c type="41"><object id="36" count="4" offset="20"><pos x="-1" y="-2.25"/><inc component_id="17" node_index="0"/><in1 component_id="41" node_index="0"/><in2 component_id="0" node_index="0"/><in3 component_id="0" node_index="0"/><in4 component_id="35" node_index="0"/><out1/></object></c><c type="13"><object id="37"><pos x="-2.5" y="-5"/><in1 component_id="40" node_index="0"/><in2 component_id="0" node_index="0"/><in3 component_id="38" node_index="0"/><out1/><r text="0" value="0"/></object></c><c type="31"><object id="38" i="13"><pos x="2.25" y="-1.75"/><in1 component_id="9" node_index="0"/><out1/></object></c><c type="29"><object id="40" i="21"><pos x="2.25" y="-1"/><in1 component_id="9" node_index="0"/><out1/></object></c><c type="27"><object id="41" on="0.5" off="0.5"><pos x="-4.5" y="-4"/><in1 component_id="25" node_index="0"/><out1/></object></c></components><components_bridge><c type="4"><object id="2"><pos x="-4" y="0"/><in1 component_id="0" node_index="0"/><out1/></object></c><c type="7"><object id="7"><pos x="2.75" y="0.25"/><in1 component_id="9" node_index="1"/><out1/></object></c></components_bridge><groups/></group></microprocessor_definition><vp x="-6" y="0" z="-3"/><logic_slots><slot><value bools="0" 01="0" 02="0" 03="0" 04="0" 05="0" 06="0" 07="0" 08="0" 09="0" 10="0" 11="0" 12="0" 13="0" 14="0" 15="0" 16="0" 17="0" 18="0" 19="0" 20="0" 21="0" 22="0" 23="0" 24="0" 25="0" 26="0" 27="0" 28="0" 29="0" 30="0" 31="0" 32="0"/></slot><slot><value/></slot></logic_slots></o></c></components></body><body unique_id="116"><initial_local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><local_transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="0" 31="0" 32="0" 33="1"/><components><c d="01_block" t="4"><o r="1,0,0,0,-1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-2" y="1" z="1"/></o></c><c d="01_block" t="4"><o r="1,0,0,0,-1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-3" y="1" z="1"/></o></c><c d="01_block" t="4"><o r="1,0,0,0,-1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-3" y="2" z="1"/></o></c><c d="01_block" t="4"><o r="-1,0,0,0,1,0,0,0,-1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-2" y="2" z="1"/></o></c><c d="01_block" t="0"><o r="-1,0,0,0,-1,0,0,0,1" bc="FFFFFFFF" ac="FFFFFFFF" sc="6"><vp x="-2" y="0" z="1"/></o></c><c d="multibody_compact_pivot_b" t="0"><o r="0,0,-1,1,0,0,0,-1,0" bc="FFFFFFFF" ac="FFFFFFFF" sc="6" custom_name="" max_force_scalar="1" gear_ratio="2" input_velocity="1"><vp x="-3" y="0" z="1"/><logic_slots><slot value="0"/><slot value="false"/><slot value="false"/><slot value="0"/></logic_slots></o></c></components></body></bodies><logic_node_links><logic_node_link type="0"><voxel_pos_0 x="-3" y="2" z="3"/><voxel_pos_1 x="-3" y="4" z="3"/></logic_node_link><logic_node_link type="1"><voxel_pos_0 x="-4" y="4" z="2"/><voxel_pos_1 x="-4" y="4" z="1"/></logic_node_link><logic_node_link type="1"><voxel_pos_0 x="-4" y="5" z="2"/><voxel_pos_1 x="-3" y="4" z="1"/></logic_node_link><logic_node_link type="1"><voxel_pos_0 x="-2" y="5" z="2"/><voxel_pos_1 x="-2" y="4" z="1"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-1" y="0" z="1"/><voxel_pos_1 x="-2" y="4" z="2"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-1" y="0" z="1"/><voxel_pos_1 x="-3" y="5" z="2"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-3" y="4" z="2"/><voxel_pos_1 x="-1" y="0" z="1"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="3" z="1"/><voxel_pos_1 x="-3" y="4" z="2"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-3" y="5" z="2"/><voxel_pos_1 x="-3" y="3" z="1"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-2" y="3" z="1"/><voxel_pos_1 x="-2" y="4" z="2"/></logic_node_link><logic_node_link type="0"><voxel_pos_0 x="-4" y="0" z="-3"/><voxel_pos_1 x="-3" y="0" z="-4"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-3" y="0" z="-3"/><voxel_pos_1 x="-3" y="0" z="-4"/></logic_node_link><logic_node_link type="6"><voxel_pos_0 x="-2" y="0" z="-3"/><voxel_pos_1 x="-3" y="0" z="-3"/></logic_node_link><logic_node_link type="5"><voxel_pos_0 x="-4" y="0" z="-3"/><voxel_pos_1 x="-2" y="0" z="-4"/></logic_node_link><logic_node_link type="0"><voxel_pos_0 x="-8" y="0" z="-3"/><voxel_pos_1 x="-7" y="0" z="-4"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-7" y="0" z="-3"/><voxel_pos_1 x="-7" y="0" z="-4"/></logic_node_link><logic_node_link type="5"><voxel_pos_0 x="-8" y="0" z="-3"/><voxel_pos_1 x="-6" y="0" z="-3"/></logic_node_link><logic_node_link type="6"><voxel_pos_0 x="-6" y="0" z="-4"/><voxel_pos_1 x="-7" y="0" z="-3"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="0"/><voxel_pos_1 x="-4" y="1" z="1"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="0"/><voxel_pos_1 x="-4" y="4" z="1"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="0"/><voxel_pos_1 x="-3" y="4" z="1"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="0"/><voxel_pos_1 x="-2" y="4" z="1"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="0"/><voxel_pos_1 x="-3" y="2" z="3"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="0"/><voxel_pos_1 x="-3" y="4" z="3"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="1"/><voxel_pos_1 x="-4" y="3" z="0"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="1"/><voxel_pos_1 x="-3" y="3" z="0"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="2" z="1"/><voxel_pos_1 x="-2" y="3" z="0"/></logic_node_link><logic_node_link type="0"><voxel_pos_0 x="-4" y="1" z="1"/><voxel_pos_1 x="-3" y="3" z="2"/></logic_node_link><logic_node_link type="1"><voxel_pos_0 x="-4" y="3" z="2"/><voxel_pos_1 x="-4" y="0" z="1"/></logic_node_link><logic_node_link type="5"><voxel_pos_0 x="-3" y="4" z="3"/><voxel_pos_1 x="-5" y="1" z="2"/></logic_node_link><logic_node_link type="6"><voxel_pos_0 x="-4" y="1" z="2"/><voxel_pos_1 x="-3" y="4" z="3"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-5" y="1" z="2"/><voxel_pos_1 x="-3" y="4" z="3"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-5" y="1" z="2"/><voxel_pos_1 x="-3" y="2" z="3"/></logic_node_link><logic_node_link type="4"><voxel_pos_0 x="-4" y="0" z="1"/><voxel_pos_1 x="-4" y="2" z="0"/></logic_node_link></logic_node_links></vehicle>
